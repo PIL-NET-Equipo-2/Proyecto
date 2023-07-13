@@ -8,10 +8,7 @@
 body{
     background-image: url("./../images/fondo_registro.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    
-
-    
+    background-size: cover;    
 }
 
 .borde{
@@ -30,4 +27,10 @@ body{
 .btn-color:hover{
     background-color: var(--Azul-color);
     
+}
+
+.sacar-borde{
+    
+background-color: rgba(0,0,0,0);
+
 }
