@@ -1,0 +1,35 @@
+:root{
+    --AzulOscuro-color: #164B60;
+    --Azul-color: #1B6B93;
+    --Celeste-color: #4FC0D0;
+    --Verde-color: #A2FF86;
+}
+body{
+    background-image: url("./../images/fondo_registro.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;    
+}
+
+.borde{
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(27, 107, 147, 0.2);
+}
+.col-fondo{
+    background-color: rgba(54, 54, 54, 0.95);
+}
+
+.btn-color{
+    background-color: var(--AzulOscuro-color);
+    color: #fff;
+}
+
+.btn-color:hover{
+    background-color: var(--Azul-color);
+    
+}
+
+.sacar-borde{
+    
+background-color: rgba(0,0,0,0);
+
+}
