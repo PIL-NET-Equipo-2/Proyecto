@@ -1,4 +1,3 @@
-
 :root{
     --AzulOscuro-color: #164B60;
     --Azul-color: #1B6B93;
@@ -8,7 +7,7 @@
 body{
     background-image: url("./../images/fondo_registro.jpg");
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: fill;    
 }
 
 .borde{
