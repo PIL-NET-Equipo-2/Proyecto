@@ -1,14 +1,4 @@
-:root{
-    --AzulOscuro-color: #164B60;
-    --Azul-color: #1B6B93;
-    --Celeste-color: #4FC0D0;
-    --Verde-color: #A2FF86;
-}
-body{
-    background-image: url("./../images/fondo_registro.jpg");
-    background-repeat: no-repeat;
-    background-size: fill;    
-}
+@import 'global.css';
 
 .borde{
     border-radius: 8px;
