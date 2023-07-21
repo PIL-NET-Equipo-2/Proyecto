@@ -1,1 +1,5 @@
 @import 'sidebar.css';
+
+.color-head{
+    background-color: var(--Celeste-color);
+}
