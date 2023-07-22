@@ -1,1 +1,45 @@
 @import 'sidebar.css';
+
+body{
+    background-color: rgb(27, 107, 147, 0.3);
+}
+
+.root-team{
+    justify-content: space-between;
+    padding: 60px 0;
+    
+}
+.student-card{
+    width: 295px;
+    
+    border: 1px var(--AzulOscuro-color) solid  ;
+    margin: 20px 0;
+}
+
+li{
+    list-style: none;
+}
+
+.link-style{
+    font-family: 'Roboto' sans-serif;
+    color: var(--AzulOscuro-color) !important;
+    font-weight: 600;
+}
+
+.link-style:hover{
+    color: var(--Celeste-color) !important;
+}
+
+.bio{
+    height: 225px;
+}
+
+.bio::before {
+    content: " ";
+    display: block;
+    border-bottom: 1px rgba(20, 108, 148, 1) solid;
+}
+
+.bi{
+    color: black;
+}
