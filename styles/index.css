@@ -33,11 +33,23 @@ header{
     background-color: var(--Verde-color);
     width: 200px;
     margin: 10px auto;
+    transition: 1s;
 }
 
 .join-btn:hover{
     background-color: var(--AzulOscuro-color);
     color: var(--Verde-color);
+}
+
+.join-btn-2{
+    border: 2px solid var(--Verde-color);
+    color: var(--Verde-color);
+    transition: 1s;
+}
+
+.join-btn-2:hover{
+    background-color: var(--Verde-color);
+    color: var(--AzulOscuro-color);
 }
 
 
