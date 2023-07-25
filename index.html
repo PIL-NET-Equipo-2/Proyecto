@@ -12,22 +12,29 @@
 </head>
 <body>
 
-    <header class="vh-100 d-flex align-content-center flex-column">
+    <header class="vh-100 d-flex align-content-center bg-body-secondary flex-column">
+        <nav class="navbar navbar-expand-md">
+            <div class="encabezado container-fluid">
+                <!-- <img src="images/logo.jpg" alt="" style="width: 20px; height: 20px;"> -->
+                <a class="navbar-brand" href="#">2 Group</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menu-horizontal collapse navbar-collapse ms-auto flex-column flex-sm-row justify-content-center justify-content-md-end mt-1 mt-md-0" id="navbarNav">
+                    <!--BOTON DE REGISTRO-->   
+                    <button type="button" class="btn btn-primary mx-2 my-1" data-bs-toggle="modal" data-bs-target="#modalRegistro" style="width: 150px;">Crear una cuenta</button>
+                                        
+                    <!--BOTON DE LOGIN-->
+                    <button type="button" class="btn btn-color mx-2" data-bs-toggle="modal" data-bs-target="#modalLogin" style="width: 150px;">Iniciar sesion</button>
+                    
+                
+                </div>
+            </div>
+        </nav>
 
-    
-
-    <nav class="bg-body-secondary p-2 min-vw-100">
-
-        <!--BOTON DE REGISTRO-->   
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRegistro">Crear una cuenta</button>
-        
-        <!--BOTON DE LOGIN-->
-        <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#modalLogin">Iniciar sesion</button>
-        
-    </nav>
 
 
-    <div class="position-relative h-100" >
+    <div class="position-relative h-100" style="background-color: #fbfbfb;">
         <div class="row w-100 h-100 bg-body">  
           <div class="col-12 col-md-6 p-4 px-md-5 pt-3 d-flex flex-column justify-content-center" style="background-color: #fbfbfb;">
             <h2 class="header-title inter">Plataforma amistosa para</h2>
@@ -56,7 +63,7 @@
 
     </header>
 
-    <section class="bg-black vh-100" >
+    <section class=" vh-100" >
         <div class="position-relative h-100" style="background-color: #164b60;">
             <div class="row w-100 h-100" >  
               
@@ -64,6 +71,7 @@
               
     
               <div class="col-12 col-md-6 d-md-flex m-0 p-0 justify-content-center align-content-center my-auto" style="background-color: #164b60;" >
+                <img src="images/logo.jpg" alt="" style="width: 20px; height: 20px;">
                 <img
                   src="images/index/istockphoto-1291391831-612x612.jpg"
                   alt=""
@@ -111,7 +119,9 @@
                                                 <label class="form-check-label mx-2 text-start" for="terms">Recordar mi usuario y contraseña.</label>
                                             </div>              
                                             <div class="d-grid gap-2">
-                                                <button class="btn btn-color" type="button">Ingresar</button>
+                                                <a href="dashboard.html" class="d-grid gap-2">
+                                                    <button class="btn btn-color" type="button">Ingresar</button>
+                                                </a>
                                             </div>
                                             <p class="text-center mt-3">¿No tiene cuenta? <a href="./registro.html">Regístrese</a></p>
                                 </div>
@@ -150,7 +160,9 @@
                                                 <label class="form-check-label mx-2 text-start" for="terms">Recordar mi usuario y contraseña.</label>
                                             </div>              
                                             <div class="d-grid gap-2">
-                                                <button class="btn btn-color" type="button">Ingresar</button>
+                                                <a href="dashboard.html" class="d-grid gap-2">
+                                                    <button class="btn btn-color" type="button">Ingresar</button>
+                                                </a>                                                
                                             </div>
                                             <p class="text-center mt-3">¿No tiene cuenta? <a href="./registro.html">Regístrese</a></p>
                                 </div>

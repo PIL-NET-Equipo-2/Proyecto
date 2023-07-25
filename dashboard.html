@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="./styles/encabezado.css">
 
 </head>
 
@@ -25,10 +25,11 @@
                 <div id="sidebar" class="collapse collapse-horizontal show border-end">
                     <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100 ">
                         <a href="#" class="ancor-list d-inline-block text-truncate ms-2 mt-5 ps-2 py-2 h3 " data-bs-parent="#sidebar"><span>Usuario</span></a>
-                        <a href="#" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5" style="width: 200px;" data-bs-parent="#sidebar"><i class="bi bi-house"></i><span class="ms-2">Inicio</span> </a>
+                        <a href="dashboard.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5" data-bs-parent="#sidebar"><i class="bi bi-house"></i><span class="ms-2">Inicio</span></a>
                         <a href="portfolio.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5" data-bs-parent="#sidebar"><i class="bi bi-briefcase-fill"></i><span class="ms-2">Portfolio</span></a>
                         <a href="cotizaciones.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5" data-bs-parent="#sidebar"><i class="bi bi-bar-chart-steps"></i><span class="ms-2">Cotizaciones</span></a>
-                        <a href="dashboard.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5" data-bs-parent="#sidebar"><i class="bi bi-speedometer"></i><span class="ms-2">Dashboard</span></a>
+                        <a href="compra.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5" data-bs-parent="#sidebar"><i class="bi bi-cash-coin"></i><span class="ms-2">Compra</span></a>
+                        <a href="venta.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5" data-bs-parent="#sidebar"><i class="bi bi-receipt"></i><span class="ms-2">Venta</span></a>
                         <a href="about.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5 mt-auto mb-4" data-bs-parent="#sidebar"><i class="bi bi-people-fill"></i><span class="ms-2">Nosotros</span></a>
                         
                     </div>
@@ -52,6 +53,39 @@
 
                             <!-- Seccion Charts -->
                             <div class="row">
+
+                                <!-- Area Saldo -->
+                                <div class="col-xl-10 col-lg-10">
+                                    <div class="card shadow mb-4">
+                                        <div class="card-header py-3">
+                                            <h6 class="m-0 font-weight-bold text-primary">Informacion de Saldo</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <h1>100.000 usd</h1>
+                                            <h5>Valor del portafolio</h5>
+                                            <br>
+                                                <table class="table table-striped shadow mb-4">
+                                                    <thead>
+                                                        <tr>                                                          
+                                                          <th scope="col">Efectivo disponible</th>
+                                                          <th scope="col">Total invertido</th>
+                                                          <th scope="col">Ganancia/Perdida</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>                                                          
+                                                          <td>100.000 usd</td>
+                                                          <td>1.500 usd</td>
+                                                          <td>3.000 usd</td>
+                                                        </tr>                                                        
+                                                      </tbody>
+                                                </table>
+                                            
+                                            <hr>
+                                            Area saldo description.
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <!-- Area Chart -->
                                 <div class="col-xl-10 col-lg-10">
