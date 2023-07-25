@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/portfolio.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap ">
+            <div class="col-auto px-0 side-bar position-sticky top-0">
+                <div id="sidebar" class="collapse collapse-horizontal show border-end">
+                    <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100 ">
+                        <a href="#" class="ancor-list d-inline-block text-truncate ms-2 mt-5 ps-2 py-2 h3 "
+                            data-bs-parent="#sidebar"><span>Usuario</span></a>
+                        <a href="dashboard.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5"
+                            data-bs-parent="#sidebar"><i class="bi bi-house"></i><span class="ms-2">Inicio</span></a>
+                        <a href="portfolio.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5"
+                            data-bs-parent="#sidebar"><i class="bi bi-briefcase-fill"></i><span
+                                class="ms-2">Portfolio</span></a>
+                        <a href="cotizaciones.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5"
+                            data-bs-parent="#sidebar"><i class="bi bi-bar-chart-steps"></i><span
+                                class="ms-2">Cotizaciones</span></a>
+                        <a href="compra.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5"
+                            data-bs-parent="#sidebar"><i class="bi bi-cash-coin"></i><span
+                                class="ms-2">Compra</span></a>
+                        <a href="venta.html" class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5"
+                            data-bs-parent="#sidebar"><i class="bi bi-receipt"></i><span class="ms-2">Venta</span></a>
+                        <a href="about.html"
+                            class="ancor-list d-inline-block text-truncate ms-2 ps-2 py-2 h5 mt-auto mb-4"
+                            data-bs-parent="#sidebar"><i class="bi bi-people-fill"></i><span
+                                class="ms-2">Nosotros</span></a>
+
+                    </div>
+                </div>
+            </div>
+            <main class="col-12 ps-md-2 pt-2">
+                <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse"
+                    class="border rounded-3 p-1 text-decoration-none"><i class="bi bi-list"></i></a>
+
+                <!-- Contenedor de la seccion -->
+                <div id="content-wrapper" class="d-flex flex-column">
+
+                    <div id="content">
+                        <!-- seccion de charts -->
+                        <div class="container-fluid">
+
+                            <!-- Header title and description -->
+                            <h1 class="h3 mt-2 mb-2 text-gray-800">Portfolio</h1>
+                            <p class="mb-4">En esta seccion podras ver todas las metricas de tus inversiones, las
+                                cotizaciones del mercado y
+                                el dinero generado a travez del broker.
+                            </p>
+
+                            <!-- Seccion Charts -->
+                            <div class="row">
+
+
+                                <div class="col-xl-10 col-lg-10">
+                                    <div class="card shadow mb-4">
+                                        <div class="card-header py-3">
+                                            <h6 class="m-0 font-weight-bold text-primary">Informacion de Saldo</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <h1>100.000 usd</h1>
+                                            <h5>Valor del portafolio</h5>
+                                            <br>
+                                            <table class="table table-striped shadow mb-4">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">Efectivo disponible</th>
+                                                        <th scope="col">Total invertido</th>
+                                                        <th scope="col">Ganancia/Perdida</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>100.000 usd</td>
+                                                        <td>1.500 usd</td>
+                                                        <td>3.000 usd</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <hr>
+                                            Area saldo description.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </main>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

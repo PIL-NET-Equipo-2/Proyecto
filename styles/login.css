@@ -1,0 +1,25 @@
+@import 'global.css';
+
+.borde{
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(27, 107, 147, 0.2);
+}
+.col-fondo{
+    background-color: rgba(54, 54, 54, 0.95);
+}
+
+.btn-color{
+    background-color: var(--AzulOscuro-color);
+    color: #fff;
+}
+
+.btn-color:hover{
+    background-color: var(--Azul-color);
+    
+}
+
+.sacar-borde{
+    
+background-color: rgba(0,0,0,0);
+
+}

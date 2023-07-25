@@ -1,0 +1,76 @@
+@import 'registro.css';
+@import 'encabezado.css';
+
+.inter{
+    font-family: 'Inter';
+}
+
+header{
+    background-color: #fbfbfb;
+}
+
+.header-title{
+    color: var(--AzulOscuro-color);
+    font-size: 2rem;
+}
+
+.header-subtitle{
+    color: var(--Verde-color);
+    font-size: 4rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+.header-text{
+    color: var(--AzulOscuro-color);
+    font-size: 1rem;
+}
+
+.landing-image{
+    width: 100%;
+}
+
+.join-btn{
+    background-color: var(--Verde-color);
+    width: 200px;
+    margin: 10px auto;
+    transition: 1s;
+}
+
+.join-btn:hover{
+    background-color: var(--AzulOscuro-color);
+    color: var(--Verde-color);
+}
+
+.join-btn-2{
+    border: 2px solid var(--Verde-color);
+    color: var(--Verde-color);
+    transition: 1s;
+}
+
+.join-btn-2:hover{
+    background-color: var(--Verde-color);
+    color: var(--AzulOscuro-color);
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .header-title{
+        font-size: 1.5rem;
+    }
+    
+    .header-subtitle{
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+    
+    .header-text{
+        color: var(--AzulOscuro-color);
+        font-size: 1rem;
+    }
+
+}
+
+
+
