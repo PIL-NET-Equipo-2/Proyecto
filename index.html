@@ -7,12 +7,187 @@
     <link rel="stylesheet" href="./styles/login.css">
     <title>Inverti</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/registro.css">
+    <link rel="stylesheet" href="./styles/index.css">
+
 </head>
 <body>
-    <!--BOTON DE REGISTRO-->   
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRegistro">Crear una cuenta</button>
-    <div class="modal fade " id="modalRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <header class="vh-100 d-flex align-content-center bg-body-secondary flex-column">
+        <nav class="navbar navbar-expand-md">
+            <div class="encabezado container-fluid">
+                <!-- <img src="images/logo.jpg" alt="" style="width: 20px; height: 20px;"> -->
+                <a class="navbar-brand" href="#">2 Group</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menu-horizontal collapse navbar-collapse ms-auto flex-column flex-sm-row justify-content-center justify-content-md-end mt-1 mt-md-0" id="navbarNav">
+                    <!--BOTON DE REGISTRO-->   
+                    <button type="button" class="btn btn-primary mx-2 my-1" data-bs-toggle="modal" data-bs-target="#modalRegistro" style="width: 150px;">Crear una cuenta</button>
+                                        
+                    <!--BOTON DE LOGIN-->
+                    <button type="button" class="btn btn-color mx-2" data-bs-toggle="modal" data-bs-target="#modalLogin" style="width: 150px;">Iniciar sesion</button>
+                    
+                
+                </div>
+            </div>
+        </nav>
+
+
+
+    <div class="position-relative h-100" style="background-color: #fbfbfb;">
+        <div class="row w-100 h-100 bg-body">  
+          <div class="col-12 col-md-6 p-4 px-md-5 pt-3 d-flex flex-column justify-content-center" style="background-color: #fbfbfb;">
+            <h2 class="header-title inter">Plataforma amistosa para</h2>
+            <h3 class="header-subtitle inter">Inversores serios</h3>
+            <p class="header-text inter mt-2">Hemos hecho que las herramientas de inversión sean fáciles de usar.
+                 Únase a los más de 9 usuarios en todo Córdoba y operá con más de 2 instrumentos en tu broker de confianza.</p>
+
+            <button class="btn join-btn" data-bs-toggle="modal" data-bs-target="#modalRegistro">Join 2 Group</button>
+          </div>
+
+          
+
+          <div
+            class="col-6 d-none d-md-flex m-0 p-0 "
+          >
+            <img
+              src="https://cdn.dribbble.com/users/1655164/screenshots/4818499/ss.gif"
+              alt=""
+              class="landing-image"
+            />
+          </div>
+
+
+        </div>
+      </div>
+
+    </header>
+
+    <section class=" vh-100" >
+        <div class="position-relative h-100" style="background-color: #164b60;">
+            <div class="row w-100 h-100" >  
+              
+    
+              
+    
+              <div class="col-12 col-md-6 d-md-flex m-0 p-0 justify-content-center align-content-center my-auto" style="background-color: #164b60;" >
+                <img src="images/logo.jpg" alt="" style="width: 20px; height: 20px;">
+                <img
+                  src="images/index/istockphoto-1291391831-612x612.jpg"
+                  alt=""
+                  class="landing-image mx-w-100"
+                  style="background-color: #164b60;"
+                />
+              </div>
+              
+              <div class="col-12 col-md-6 p-4 p-5 d-flex flex-column justify-content-center"  style="background-color: #164b60;" >
+    
+                <h3 class="text-white inter">Invertí en tus acciones preferidas</h3>
+                <p class="text-white inter mt-2">con bajas comisiones.</p>
+    
+                <button class="btn join-btn-2" data-bs-toggle="modal" data-bs-target="#modalRegistro" >Join 2 Group</button>
+              </div>
+    
+            </div>
+          </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row p-5">
+
+                <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+                    <p class="h5">Encuéntrenos en:</p>
+                        <div class="contenedor-redes mb-4">
+                            <a class="enlace-redes" href="#">
+                                <div class="div-enlace-redes">
+                                    <img class= "img-redes" src="./images/logo-twitter.png" alt="logo-twitter">
+                                    <!-- <span>www.twitter.com/empresa</span> -->
+                                </div>
+                            </a>
+                            
+                            <a class="enlace-redes" href="#">
+                                <div class="div-enlace-redes">
+                                    <img class="img-redes" src="./images/logo-facebook.png" alt="logo-facebook">
+                                    <!-- <span>www.facebook.com/empresa</span> -->
+                                </div>
+                            </a>
+                            
+                            <a class="enlace-redes" href="#">
+                                <div class="div-enlace-redes">
+                                    <img class="img-redes" src="./images/logo-instagram.png" alt="logo-instagram">
+                                    <!-- <span>www.instagram.com/empresa</span> -->
+                                </div>
+                            </a>
+                        </div>
+                </div>
+                
+                <div class="col-xs-12 col-md-6 col-lg-4 mb-4 ">
+                    <p class="h5">Asesoramiento experto</p>
+                    <div class="enlaces-items-footer">
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                    </div>
+                        
+                </div>
+                
+                <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+                    <p class="h5">Soporte</p>
+                    <div class="enlaces-items-footer">
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                </div>
+                    
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+                    <p class="h5">Más información</p>
+                    <div class="enlaces-items-footer">
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+                    <p class="h5">Privacidad y regulación</p>
+                    <div class="enlaces-items-footer">
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-md-6 col-lg-4 mb-4">
+                    <p class="h5">Socios y promociones</p>
+                    <div class="enlaces-items-footer">
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                        <a href="">Enlace</a>
+                    </div>
+                    
+                </div>
+                <div class="col-xs-12">
+                    <p class="p-copyright text-center pt-4">Copyright - All reserved 2023</p>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- MODAL REGISTER -->
+
+      <div class="modal fade " id="modalRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content sacar-borde">                    
                 <div class="modal-body">             
@@ -36,7 +211,9 @@
                                                 <label class="form-check-label mx-2 text-start" for="terms">Recordar mi usuario y contraseña.</label>
                                             </div>              
                                             <div class="d-grid gap-2">
-                                                <button class="btn btn-color" type="button">Ingresar</button>
+                                                <a href="dashboard.html" class="d-grid gap-2">
+                                                    <button class="btn btn-color" type="button">Ingresar</button>
+                                                </a>
                                             </div>
                                             <p class="text-center mt-3">¿No tiene cuenta? <a href="./registro.html">Regístrese</a></p>
                                 </div>
@@ -48,9 +225,10 @@
             </div>
         </div>
     </div> 
-    <!--BOTON DE LOGIN-->
-    <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#modalLogin">Iniciar sesion</button>
-    <div class="modal fade " id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+    <!-- MODAL LOGIN -->
+      <div class="modal fade " id="modalLogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog ">
             <div class="modal-content sacar-borde">               
                 <div class="modal-body  ">             
@@ -74,7 +252,9 @@
                                                 <label class="form-check-label mx-2 text-start" for="terms">Recordar mi usuario y contraseña.</label>
                                             </div>              
                                             <div class="d-grid gap-2">
-                                                <button class="btn btn-color" type="button">Ingresar</button>
+                                                <a href="dashboard.html" class="d-grid gap-2">
+                                                    <button class="btn btn-color" type="button">Ingresar</button>
+                                                </a>                                                
                                             </div>
                                             <p class="text-center mt-3">¿No tiene cuenta? <a href="./registro.html">Regístrese</a></p>
                                 </div>
@@ -86,6 +266,8 @@
             </div>
         </div>
     </div>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

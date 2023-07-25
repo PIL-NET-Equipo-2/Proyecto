@@ -11,6 +11,7 @@
 .btn-color{
     background-color: var(--AzulOscuro-color);
     color: #fff;
+    
 }
 
 .btn-color:hover{
