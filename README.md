@@ -1,36 +1,27 @@
-## 2 Group Brokers 
-# PIL.NET 🙌
+# Frontend
 
-[2 Group](https://pil-net-equipo-2.github.io/Proyecto/)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
-Esta página web consta con un maquetado básico correspondiente a un broker digital
+## Development server
 
-# Sprint 01 Goal
-* Maqueta (frontend estático) 
-  * Landing page + quienes somos
-  * Dashboard (portfolio del inversor)
-  * Cotizaciones de acciones argentinas vigentes 
-  * Barra de navegación F
-  * Formularios: login, registro de usuario
-  * Operación de compra de acciones 
-  * Web responsive.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-## Solucion
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Para el **cliente** de la página se utilizo HTML y CSS junto con Bootstrap para manejar los estilos.
+## Build
 
-* Cliente
-  * HTML
-  * CSS
-  * Bootstrap
-  
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Deploy 🚀
+## Running end-to-end tests
 
-Puedes ver la página funcionando en produccion mediante este link: [2 Group](https://pil-net-equipo-2.github.io/Proyecto/) .
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
 
-Si llegaste aqui gracias 🙏🏼 me gusta ser leido, Buen Dia!
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
