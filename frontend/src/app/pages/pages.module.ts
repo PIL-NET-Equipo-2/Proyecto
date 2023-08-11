@@ -4,6 +4,7 @@ import { IndexComponent } from './index/index.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CotizacionesComponent } from './cotizaciones/cotizaciones.component';
 import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.component';
+import { LandingComponent } from './landing/landing.component';
 
 
 
@@ -12,7 +13,8 @@ import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.comp
     IndexComponent,
     PortfolioComponent,
     CotizacionesComponent,
-    DesarrolladoresComponent
+    DesarrolladoresComponent,
+    LandingComponent
   ],
   imports: [
     CommonModule
