@@ -1,1 +1,88 @@
-<p>cotizaciones works!</p>
+<div class="container-fluid">
+    <div class="row flex-nowrap ">
+        <main class="col-12 ps-md-2 pt-2">
+            <div class="page-header pt-3 w-100">
+                <h2 class="text-center">Cotizaciones</h2>
+            </div>
+            <div class="container w-100">
+                <form class="row   justify-content-end mb-3">
+                    <div class="col-auto d-none d-md-table-cell">
+                        <label for="buscarSimbolo" class="col-form-label">Buscar simbolo:</label>
+                    </div>
+                    <div class="col-auto">
+                        <input (keyup)="filtrarDatos(filtro.value)"  type="text" #filtro class="form-control" placeholder=" Simbolo ejemplo: GGAL">
+                    </div>
+                </form>
+            </div>
+            <div *ngIf="!(listaCotizacionesMostrar.length > 0)" class="alert alert-warning" role="alert">
+                <div class="d-flex align-items-center">
+                    <strong role="status">No se encontraron acciones...</strong>
+                    <div class="spinner-border ms-auto" aria-hidden="true"></div>
+                </div>
+            </div>
+            <div *ngIf="(listaCotizacionesMostrar.length > 0)" class="centrar d-flex mx-auto w-100">   
+                <table class="table">
+                    <thead>
+                        <tr class="table-dark table-striped text-center align-middle">
+                            <th class="" scope="col" colspan="4">Simbolo</th>
+                            <th class="" scope="col">Último Operado</th>
+                            <th class="" scope="col">Variacíon Diaria</th>
+                            <th class="d-none d-xl-table-cell" scope="col">Cantidad Compra</th>
+                            <th class="d-none d-lg-table-cell" scope="col">Valor Compra</th>
+                            <th class="d-none d-xl-table-cell" scope="col">Cantidad Venta</th>
+                            <th class="d-none d-lg-table-cell" scope="col">Valor Venta</th>
+                            <th class="d-none d-md-table-cell" scope="col">Apertura</th>
+                            <th class="d-none d-lg-table-cell" scope="col">Mínimo</th>
+                            <th class="d-none d-lg-table-cell" scope="col">Máximo</th>
+                            <th class="d-none d-md-table-cell" scope="col">Último Cierre</th>
+                            <th class="d-none d-xl-table-cell" scope="col">Monto Operado</th>
+                            <th class="d-none d-lg-table-cell" scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody  *ngIf="!cargando">
+                        <tr class="align-middle text-center" *ngFor="let item of obtenerElementosPagina()">
+                            <td colspan="4" class="align-middle text-start">
+                                {{item.simbolo}}
+                                <br>
+                                <small>{{item.descripcion}}</small>
+                            </td>
+                            <td>{{item.ultimoPrecio}}0</td>
+                            <td class=" text-success">{{item.variacionPorcentual}}%</td>
+                            <td class="d-none  d-xl-table-cell bg-success-subtle">{{item.puntas == null? '-' : item.puntas.cantidadCompra}}</td>
+                            <td class="d-none  d-lg-table-cell bg-success-subtle">{{item.puntas == null? '-' : '$'+item.puntas.precioCompra}}</td>
+                            <td class="d-none  d-xl-table-cell bg-danger-subtle">{{item.puntas == null? '-' : item.puntas.cantidadVenta}}</td>
+                            <td class="d-none  d-lg-table-cell bg-danger-subtle">{{item.puntas == null? '-' : '$'+item.puntas.precioVenta}}</td>
+                            <td class="d-none  d-md-table-cell text-center">${{item.apertura}}</td>
+                            <td class="d-none  d-lg-table-cell text-center">${{item.minimo}}</td>
+                            <td class="d-none  d-lg-table-cell text-center">${{item.maximo}}</td>
+                            <td class="d-none  d-md-table-cell text-center">${{item.ultimoCierre}}</td>
+                            <td class="d-none  d-xl-table-cell text-center">${{item.volumen}}</td>
+                            <td class="d-none  d-lg-table-cell"><button type="button"
+                                    class="btn btn-outline-success">Comprar</button>
+                            <td>
+                        </tr>
+
+
+
+                    </tbody>                   
+                </table>               
+            </div>
+            <div *ngIf="cargando" class=" centrar d-flex align-items-center">
+                <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <div *ngIf="!cargando && (listaCotizacionesMostrar.length > 0)" class="container centrar text-center mt-2">
+
+                <ul class="pagination">
+                    <li class="page-item " [class.disabled]="paginaActual === 1">
+                        <a href="#" class="page-link " (click)="paginaActual = paginaActual - 1">Anterior</a>
+                    </li>
+                    <li class="page-item " [class.disabled]="paginaActual  >= ultimaPagina">
+                        <a  href="#"class="page-link " (click)="paginaActual = paginaActual + 1">Siguiente</a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+</div>

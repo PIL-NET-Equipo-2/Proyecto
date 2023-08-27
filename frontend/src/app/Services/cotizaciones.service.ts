@@ -11,7 +11,7 @@ export class CotizacionesService {
   ) { }
 
   obtenerCotizaciones():Observable<any>{
-    return this.http.get(`${this.urlApi}titulos`)
+    return this.http.get(`${this.urlApi}titulos`);
   }
 
 }
