@@ -2,7 +2,7 @@
     <div class="row flex-nowrap ">
         <main class="col-12 ps-md-2 pt-2">
             <div class="page-header pt-3 w-100">
-                <h2 class="text-center">Cotizaciones</h2>
+                <h2 class="text-center" >Cotizaciones</h2>
             </div>
             <div class="container w-100">
                 <form class="row   justify-content-end mb-3">
@@ -76,10 +76,10 @@
 
                 <ul class="pagination">
                     <li class="page-item " [class.disabled]="paginaActual === 1">
-                        <a href="#" class="page-link " (click)="paginaActual = paginaActual - 1">Anterior</a>
+                        <a  class="page-link " (click)="paginaActual = paginaActual - 1">Anterior</a>
                     </li>
                     <li class="page-item " [class.disabled]="paginaActual  >= ultimaPagina">
-                        <a  href="#"class="page-link " (click)="paginaActual = paginaActual + 1">Siguiente</a>
+                        <a  class="page-link " (click)="paginaActual = paginaActual + 1">Siguiente</a>
                     </li>
                 </ul>
             </div>
