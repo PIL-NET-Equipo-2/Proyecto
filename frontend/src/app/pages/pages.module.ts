@@ -6,7 +6,7 @@ import { CotizacionesComponent } from './cotizaciones/cotizaciones.component';
 import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.component';
 import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -16,10 +16,13 @@ import { LoginComponent } from './login/login.component';
     CotizacionesComponent,
     DesarrolladoresComponent,
     LandingComponent,
-    LoginComponent
+    LoginComponent,
+    
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class PagesModule { }
