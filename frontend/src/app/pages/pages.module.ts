@@ -6,6 +6,8 @@ import { CotizacionesComponent } from './cotizaciones/cotizaciones.component';
 import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.component';
 import { LandingComponent } from './landing/landing.component';
 import { RegistroComponent } from './registro/registro.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
 
 
 
@@ -16,10 +18,13 @@ import { RegistroComponent } from './registro/registro.component';
     CotizacionesComponent,
     DesarrolladoresComponent,
     LandingComponent,
-    RegistroComponent
+    RegistroComponent,
+    
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class PagesModule { }

@@ -1,1 +1,80 @@
-<p>registro works!</p>
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-8 col-xl-8">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <form class=" row card-body p-5 text-center" [formGroup]="formularioRegistro" (ngSubmit)="registrar()">
+                        
+                        <h3 class="mb-5 ">Cree una cuenta</h3>
+                        
+                        <div class="col-sm-6">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="nombre">Nombre</label>
+                                <input formControlName="nombre" type="text" id="nombre" class="form-control form-control-lg" placeholder="Juan"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="apellido">Apellido</label>
+                                <input formControlName="apellido" type="text" id="apellido" class="form-control form-control-lg" placeholder="Perez"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="sexo">Sexo</label>
+                                <select formControlName="sexo" class="form-select" id="sexo" aria-label="Default select example">
+                                    <option selected>Seleccione un sexo:</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="dni">Nro. Documento</label>
+                                <input formControlName="dni" type="number" id="dni" class="form-control form-control-lg" placeholder="12.345.789" />
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="provincia">Provincia</label>
+                                <input formControlName="provincia" type="text" id="provincia" class="form-control form-control-lg" placeholder="Cordoba"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="ciudad">Ciudad</label>
+                                <input formControlName="ciudad" type="text" id="ciudad" class="form-control form-control-lg" placeholder="Cordoba Capital"/>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="domicilio">Direccion</label>
+                                <input formControlName="domicilio" type="text" id="domicilio" class="form-control form-control-lg" placeholder="Bv. Illia 280"/>
+                            </div>
+                        </div>
+                        <div class="col-12">                            
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="Email">Correo electronico</label>
+                                <input formControlName="email" type="email" id="Email" class="form-control form-control-lg"  placeholder="JuanPerez@mail.com"/>
+                            </div>
+                        </div>   
+                        <div class="col-12">
+                            <div class="form-outline mb-4 text-start">
+                                <label class="form-label" for="contraseña">Contraseña</label>
+                                <input formControlName="password" [type]="ocultarPass? 'password': 'text'" id="contraseña" class="form-control form-control-lg" placeholder="********"/>
+                                <button type="button" (click)="ocultarPass = !ocultarPass" class="text-dark btn btn-link">
+                                    {{ocultarPass? 'Ver contraseña...' : 'Ocultar contraseña...'}}
+                                </button>
+                            </div>
+                        </div>               
+                        <div class="d-grid gap-2">
+                            <button [disabled]="formularioRegistro.invalid"  class="btn btn-primary" type="submit">Crear una cuenta</button>
+                        </div>                      
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
