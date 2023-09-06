@@ -48,6 +48,6 @@ export class RegistroComponent {
 
   registrar(){
     console.log(this.formularioRegistro.value);
-    //Aca Va el codigo una vez que se tenga la api para registrarse
+    //Aca Va el codigo una vez que se tenga la api para registrarse.
   }
 }
