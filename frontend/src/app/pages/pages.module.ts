@@ -5,7 +5,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CotizacionesComponent } from './cotizaciones/cotizaciones.component';
 import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.component';
 import { LandingComponent } from './landing/landing.component';
-
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,10 +15,14 @@ import { LandingComponent } from './landing/landing.component';
     PortfolioComponent,
     CotizacionesComponent,
     DesarrolladoresComponent,
-    LandingComponent
+    LandingComponent,
+    LoginComponent,
+    
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class PagesModule { }
