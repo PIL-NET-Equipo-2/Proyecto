@@ -7,7 +7,7 @@ import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.comp
 import { LandingComponent } from './landing/landing.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -19,12 +19,13 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     DesarrolladoresComponent,
     LandingComponent,
     RegistroComponent,
+    LoginComponent,
     
   ],
   imports: [
     CommonModule,
-    ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class PagesModule { }
