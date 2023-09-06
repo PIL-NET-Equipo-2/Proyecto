@@ -5,6 +5,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CotizacionesComponent } from './cotizaciones/cotizaciones.component';
 import { DesarrolladoresComponent } from './desarrolladores/desarrolladores.component';
 import { LandingComponent } from './landing/landing.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -17,7 +18,13 @@ import { LandingComponent } from './landing/landing.component';
     LandingComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
+  ],
+  exports: [
+    IndexComponent,
+    LandingComponent,
+    PortfolioComponent
   ]
 })
 export class PagesModule { }
