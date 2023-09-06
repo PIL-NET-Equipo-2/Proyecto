@@ -1,34 +1,42 @@
 
-<aside class="sidebar p-3">
-    <div class="menu-button">
-        <i class="las la-bars" style="font-size: 35px"></i>
-    </div>
+<aside class="sidebar p-3 d-flex flex-column  justify-content-between ">
+    
     <div class="sidebar-items">
+        <div class="menu-button">
+            <button class="btn">
+                <i class="las la-bars"></i>
+            </button>
+        </div>
         <div class="item" style="font-size: 35px"> 
             <a [routerLink]="['/']" routerLinkActive="router-link-active" >
                 <i class="las la-home"></i>
-                <span>Inicio</span>
+                <span  class="ms-3 ">Inicio</span>
             </a>
         </div>
         <div class="item">
             <a [routerLink]="['/portfolio']" routerLinkActive="router-link-active" >
                 <i class="las la-suitcase"></i>
-                <span>Portfolio</span>
+                <span  class="ms-3 ">Portfolio</span>
             </a>
         </div>
         <div class="item">
             <a [routerLink]="['/cotizaciones']" routerLinkActive="router-link-active" >
                 <i class="lar la-chart-bar"></i>          
-                <span>Cotizaciones</span>
+                <span class="ms-3 ">Cotizaciones</span>
             </a>
         </div>
-        <div class="item mt-5">
+        
+    </div>
+    <div class="sidebar-items-bottom">
+        <div class="item">
             
-            <span>Cambiar a virtual</span>
+            <button class="btn btn-light text-light w-75  ">virtual</button>
         </div>
         <div class="item">
-            <i class="las la-user-tie"></i>            
-            <span>Nosotros</span>
+            <a [routerLink]="['/nosotros']" routerLinkActive="router-link-active" >
+                <i class="las la-user-tie"></i>            
+                <span>Nosotros</span>
+            </a>
         </div>
     </div>
 
