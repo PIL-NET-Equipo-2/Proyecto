@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { CotizacionesComponent } from './pages/cotizaciones/cotizaciones.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AuthGuard } from './Services/auth.guard';
+import { RegistroComponent } from './pages/registro/registro.component';
 
 const routes: Routes = [
   {path:'', component:LoginComponent},
   {path:'login', component: LoginComponent},
+  {path:'registro', component: RegistroComponent},
   {path:'cotizaciones', component: CotizacionesComponent, canActivate:[AuthGuard]}
 ];
 
