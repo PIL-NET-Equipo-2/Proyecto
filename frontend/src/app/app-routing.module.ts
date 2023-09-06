@@ -10,7 +10,6 @@ import { AuthGuard } from './Services/auth.guard';
 const routes: Routes = [
   { 
     path: '',
-    title: 'child b',
     component: IndexComponent },
   { 
     path: 'portfolio',

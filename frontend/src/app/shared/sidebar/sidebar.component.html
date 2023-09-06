@@ -4,20 +4,25 @@
         <i class="las la-bars" style="font-size: 35px"></i>
     </div>
     <div class="sidebar-items">
-        <a routerLink="/inicio" routerLinkActive="active"  class="item" style="font-size: 35px"> 
-            
-            <i class="las la-home"></i>
-            <span>Inicio</span>
-        </a>
-        <div class="item">
-            <i class="las la-suitcase"></i>
-            <span>Portfolio</span>
+        <div class="item" style="font-size: 35px"> 
+            <a [routerLink]="['/']" routerLinkActive="router-link-active" >
+                <i class="las la-home"></i>
+                <span>Inicio</span>
+            </a>
         </div>
         <div class="item">
-            <i class="lar la-chart-bar"></i>          
-            <span>Cotizaciones</span>
+            <a [routerLink]="['/portfolio']" routerLinkActive="router-link-active" >
+                <i class="las la-suitcase"></i>
+                <span>Portfolio</span>
+            </a>
         </div>
         <div class="item">
+            <a [routerLink]="['/cotizaciones']" routerLinkActive="router-link-active" >
+                <i class="lar la-chart-bar"></i>          
+                <span>Cotizaciones</span>
+            </a>
+        </div>
+        <div class="item mt-5">
             
             <span>Cambiar a virtual</span>
         </div>
@@ -25,8 +30,6 @@
             <i class="las la-user-tie"></i>            
             <span>Nosotros</span>
         </div>
-
-        <a routerLink="child-a">Child A</a>
     </div>
 
 </aside>
