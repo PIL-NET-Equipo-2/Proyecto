@@ -1,0 +1,28 @@
+<button type="button" class="btn btn-outline-success" (click)="switchModal()">Comprar</button>
+<div *ngIf="isOpen" class="modal" (click)="switchModal()" >
+    <div class="comprar-form rounded rounded-4 shadow-lg position-relative " (click)="stopPropagation($event)">
+        <div class="titulo p-4 rounded-top rounded-top-4 shadow-lg ">
+            COMPRAR {{nombreAccion}}
+        </div>
+        <div class="cantidad-acciones mt-5 ">
+            <div>Unidades</div>
+            <div class="btn-group mt-3 " role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary" (click)="decreaseNumber()">-</button>
+                <button type="button" class="btn unidades" disabled>{{cantidad}}</button>
+                <button type="button" class="btn btn-secondary" (click)="increaseNumber()">+</button>
+            </div>
+        </div>
+
+        <div class="resultado mt-5 ">
+            <span>Total:</span>
+            <span class="ms-2 ">{{total  | number:'':'es-AR'}}</span>
+        </div>
+        <div class="w-75 m-auto ">
+            <button class="btn btn-primary mt-5 form-control" (click)="onComprar()">Comprar</button>
+
+        </div>
+
+        <button class="btn cerrar position-absolute" (click)="switchModal()">x</button>
+    </div>
+
+</div>

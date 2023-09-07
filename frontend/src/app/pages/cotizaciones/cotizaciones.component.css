@@ -1,6 +1,15 @@
 .centrar {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
-   
-    
+
+
   }
+
+.main{
+    background-color: #F9F7F7;
+    z-index: 2;
+}
+
+.view-heigth{
+  min-height: 100vh;
+}

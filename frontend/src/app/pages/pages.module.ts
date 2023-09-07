@@ -8,6 +8,9 @@ import { LandingComponent } from './landing/landing.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
+import { SharedModule } from '../shared/shared.module';
+import { RouterModule } from '@angular/router';
+
 
 
 
@@ -24,8 +27,17 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     CommonModule,
+    SharedModule,
+    ReactiveFormsModule,
+    RouterModule
+  ],
+  exports: [
+    IndexComponent,
+    LandingComponent,
+    PortfolioComponent,
     FormsModule,
     ReactiveFormsModule
+
   ]
 })
 export class PagesModule { }
