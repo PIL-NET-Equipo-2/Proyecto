@@ -8,10 +8,10 @@
             </button>
             <div class="menu-horizontal collapse navbar-collapse ms-auto flex-column flex-sm-row justify-content-center justify-content-md-end mt-1 mt-md-0" id="navbarNav">
                 <!--BOTON DE REGISTRO-->   
-                <button type="button" class="btn btn-primary mx-2 my-1" data-bs-toggle="modal" data-bs-target="#modalRegistro" style="width: 150px;">Crear una cuenta</button>
+                <button type="button" [routerLink]="['/registro']" class="btn btn-primary mx-2 my-1" style="width: 150px;">Crear una cuenta</button>
                                     
                 <!--BOTON DE LOGIN-->
-                <a [routerLink]="['/login']" routerLinkActive="router-link-active" class="btn btn-color mx-2" >
+                <a [routerLink]="['/login']" routerLinkActive="router-link-active" class="btn btn-success mx-2" >
                     Iniciar sesion
                 </a>
                 
