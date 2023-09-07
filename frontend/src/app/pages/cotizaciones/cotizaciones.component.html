@@ -1,7 +1,7 @@
 <div class="d-flex">
-    <sidebar></sidebar>  
+    <sidebar></sidebar>
     <div class="container-fluid main">
-        <div class="row flex-nowrap ">
+        <div class="row flex-nowrap  view-heigth">
             <main class="col-12 ps-md-2 pt-2">
                 <div class="page-header pt-3 w-100">
                     <h2 class="text-center" >Cotizaciones</h2>
@@ -22,7 +22,7 @@
                         <div class="spinner-border ms-auto" aria-hidden="true"></div>
                     </div>
                 </div>
-                <div *ngIf="(listaCotizacionesMostrar.length > 0)" class="centrar d-flex mx-auto w-100">   
+                <div *ngIf="(listaCotizacionesMostrar.length > 0)" class="centrar d-flex mx-auto w-100">
                     <table class="table">
                         <thead>
                             <tr class="table-dark table-striped text-center align-middle">
@@ -60,15 +60,15 @@
                                 <td class="d-none  d-md-table-cell text-center">${{item.ultimoCierre}}</td>
                                 <td class="d-none  d-xl-table-cell text-center">${{item.volumen}}</td>
                                 <td class="d-none  d-lg-table-cell">
-                                    
+
                                     <comprar-form [nombreAccion]="item.simbolo"></comprar-form>
                                 <td>
                             </tr>
-    
-    
-    
-                        </tbody>                   
-                    </table>               
+
+
+
+                        </tbody>
+                    </table>
                 </div>
                 <div *ngIf="cargando" class=" centrar d-flex align-items-center">
                     <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div *ngIf="!cargando && (listaCotizacionesMostrar.length > 0)" class="container centrar text-center mt-2">
-    
+
                     <ul class="pagination">
                         <li class="page-item " [class.disabled]="paginaActual === 1">
                             <a  class="page-link " (click)="paginaActual = paginaActual - 1">Anterior</a>
