@@ -33,9 +33,8 @@ Para el **cliente** de la página se realizó utilizando Angular 16
 
 ## Para poder probarlo en local deberá realizar los siguientes pasos
  * Server
-  * npm i json-server
-  * npm run server
-
+   * npm i json-server
+   * npm run server
 * Cliente
   * npm i
   * npm start 
