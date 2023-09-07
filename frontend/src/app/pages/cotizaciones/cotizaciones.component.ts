@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CotizacionesService } from 'src/app/Services/cotizaciones.service';
-import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-cotizaciones',

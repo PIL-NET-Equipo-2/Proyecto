@@ -1,1 +1,85 @@
-<p>landing works!</p>
+<header class="vh-100 d-flex align-content-center bg-body-secondary flex-column">
+    <nav class="navbar navbar-expand-md">
+        <div class="encabezado container-fluid">
+            <!-- <img src="images/logo.jpg" alt="" style="width: 20px; height: 20px;"> -->
+            <a class="navbar-brand" href="#">ARG Broker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="menu-horizontal collapse navbar-collapse ms-auto flex-column flex-sm-row justify-content-center justify-content-md-end mt-1 mt-md-0" id="navbarNav">
+                <!--BOTON DE REGISTRO-->   
+                <button type="button" class="btn btn-primary mx-2 my-1" data-bs-toggle="modal" data-bs-target="#modalRegistro" style="width: 150px;">Crear una cuenta</button>
+                                    
+                <!--BOTON DE LOGIN-->
+                <a [routerLink]="['/login']" routerLinkActive="router-link-active" class="btn btn-color mx-2" >
+                    Iniciar sesion
+                </a>
+                
+            
+            </div>
+        </div>
+    </nav>
+
+
+
+<div class="position-relative h-100" style="background-color: #fbfbfb;">
+    <div class="row w-100 h-100 bg-body">  
+      <div class="col-12 col-md-6 p-4 px-md-5 pt-3 d-flex flex-column justify-content-center" style="background-color: #fbfbfb;">
+        <h2 class="header-title inter">Plataforma amistosa para</h2>
+        <h3 class="header-subtitle inter">Inversores serios</h3>
+        <p class="header-text inter mt-2">Hemos hecho que las herramientas de inversión sean fáciles de usar.
+             Únase a los más de 9 usuarios en todo Córdoba y operá con más de 2 instrumentos en tu broker de confianza.</p>
+
+        <button class="btn join-btn" data-bs-toggle="modal" data-bs-target="#modalRegistro">Join 2 Group</button>
+      </div>
+
+      
+
+     
+
+      <div class="col-12 col-md-6  d-none d-md-flex m-0 p-0 justify-content-center align-content-center my-auto" style="background-color: #164b60;" >
+        
+        <img
+          src="../../../assets/images/ss.gif"
+          alt=""
+          class="landing-image mx-w-100 w-100 "
+        />
+      </div>
+
+
+    </div>
+  </div>
+
+</header>
+
+<section class=" vh-100" >
+    <div class="position-relative h-100" style="background-color: #164b60;">
+        <div class="row w-100 h-100" >  
+          
+
+          
+
+          <div class="col-12 col-md-6 d-md-flex m-0 p-0 justify-content-center align-content-center my-auto" style="background-color: #164b60;" >
+            <img src="images/logo.jpg" alt="" style="width: 20px; height: 20px;">
+            <img
+              src="../../../assets/images/istockphoto-1291391831-612x612.jpg"
+              alt=""
+              class="landing-image mx-w-100"
+              style="background-color: #164b60;"
+            />
+          </div>
+          
+          <div class="col-12 col-md-6 p-4 p-5 d-flex flex-column justify-content-center"  style="background-color: #164b60;" >
+
+            <h3 class="text-white inter">Invertí en tus acciones preferidas</h3>
+            <p class="text-white inter mt-2">con bajas comisiones.</p>
+
+            <button class="btn join-btn-2" data-bs-toggle="modal" data-bs-target="#modalRegistro" >Join 2 Group</button>
+          </div>
+
+        </div>
+      </div>
+</section>
+<shared-footer></shared-footer>
+
+
