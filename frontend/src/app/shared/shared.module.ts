@@ -7,7 +7,6 @@ import { ComprarFormComponent } from './comprar-form/comprar-form.component';
 import { FooterComponent } from './footer/footer.component';
 
 
-
 @NgModule({
   declarations: [
     SidebarComponent,
