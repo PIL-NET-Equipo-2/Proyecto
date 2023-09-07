@@ -1,0 +1,44 @@
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
+    display: grid
+  }
+
+  .comprar-form{
+    height: 425px;
+    min-width: 300px;
+    background-color: #F9F7F7;
+  }
+
+  .titulo{
+    background-color: dimgrey;
+    color: #112d4e;
+    font-weight: 800;
+  }
+
+  .cantidad-acciones{
+    width: 100%;
+  }
+
+  .unidades{
+    width: 120px;
+    font-weight: 700;
+  }
+
+  span{
+    font-weight: 800;
+    font-size: 1.2rem;
+  }
+
+  .cerrar{
+    font-weight: 700;
+    font-size: 2rem;
+    top: 1px;
+    right: 10px;
+  }
