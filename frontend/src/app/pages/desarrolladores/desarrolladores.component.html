@@ -1,1 +1,40 @@
-<p>desarrolladores works!</p>
+<div class="d-flex">
+    <sidebar></sidebar>
+    <main class="main pt-5 w-100 flex-wrap d-flex justify-content-center  ">
+        
+                    <div class="root-team container row d-flex  flex-wrap  justify-content-center  prueba">
+
+                      <h2 class="text-center h1 grupo">Grupo 2</h2>
+                    
+        
+          
+
+                        <div class="card m-3 col-md-5 col-lg-3  "  *ngFor="let item of developers">
+                            <img src={{item.foto}} class="card-img-top my-2 " alt="{{item.nombre}} foto">
+                            <div class="mb-3 ">
+                              <h5 class="card-title">{{item.nombre}}</h5>
+                              <p class="card-text">{{item.ocupacion}}</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item" *ngFor="let link of item.links" >
+                                <img src={{link.logo}} alt={{link.alt}} class="social-media"/>
+                                <a href={{link.link}} target="_blank" rel="noopener noreferrer" class="ms-2 text-black  ">{{link.muestra}}</a>
+
+                              </li>
+
+                            </ul>
+
+                          </div>
+
+
+
+
+    
+                        <div class="container d-flex  justify-content-around flex-wrap">
+                        </div>
+                    </div>
+                    <shared-footer></shared-footer>
+    </main>
+  
+
+</div>

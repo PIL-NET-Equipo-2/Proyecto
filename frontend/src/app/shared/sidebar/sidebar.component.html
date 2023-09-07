@@ -1,9 +1,12 @@
 
-<aside class="sidebar p-3 d-flex flex-column  justify-content-between ">
+<aside class=" " >
+
     
+
+    <div class="sidebar p-3 d-flex flex-column  justify-content-between fixed-top  ">
     <div class="sidebar-items">
         <div class="menu-button">
-            <button class="btn">
+            <button class="btn" (click)="switchWidth()">
                 <i class="las la-bars"></i>
             </button>
         </div>
@@ -30,14 +33,20 @@
     <div class="sidebar-items-bottom">
         <div class="item">
             
-            <button class="btn btn-light text-light w-75  ">virtual</button>
+            <!-- <button class="btn btn-light text-light w-  ">virtual</button> -->
         </div>
         <div class="item">
             <a [routerLink]="['/nosotros']" routerLinkActive="router-link-active" >
                 <i class="las la-user-tie"></i>            
-                <span>Nosotros</span>
+                <span class="ms-3 ">Nosotros</span>
             </a>
         </div>
     </div>
+
+</div>
+<div class="space sidebar2 " [ngClass]="{escondida: isNarrow}" >
+    
+
+</div>
 
 </aside>

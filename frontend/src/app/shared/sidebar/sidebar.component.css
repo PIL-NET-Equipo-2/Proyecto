@@ -2,6 +2,15 @@
     height: 100vh;
     width: 250px;
     background-color: #112D4E;
+    z-index: 1;
+    
+}
+
+.sidebar2{
+    height: 100vh;
+    width: 250px; 
+    transition: width 1s;
+     
 }
 
 a{
@@ -18,4 +27,21 @@ i{
 button{
     background-color: #112D4E;
     padding: 0;
+}
+
+.escondida{
+    width: 60px;
+    transition: 0.2ms;
+    transition: width 1s;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar2{
+      
+        width: 60px; 
+
+         
+    }
+
 }

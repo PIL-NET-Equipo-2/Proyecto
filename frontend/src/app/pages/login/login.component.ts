@@ -35,7 +35,7 @@ export class LoginComponent {
       {
         next:(data)=>{
           console.log(data);
-          this.router.navigate(['/cotizaciones']);
+          this.router.navigate(['/']);
         },
         error:(e)=>{
           this.error = e;

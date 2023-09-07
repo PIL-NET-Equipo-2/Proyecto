@@ -1,6 +1,6 @@
 <div class="d-flex">
     <sidebar></sidebar>  
-    <div class="container-fluid">
+    <div class="container-fluid main">
         <div class="row flex-nowrap ">
             <main class="col-12 ps-md-2 pt-2">
                 <div class="page-header pt-3 w-100">
@@ -59,8 +59,9 @@
                                 <td class="d-none  d-lg-table-cell text-center">${{item.maximo}}</td>
                                 <td class="d-none  d-md-table-cell text-center">${{item.ultimoCierre}}</td>
                                 <td class="d-none  d-xl-table-cell text-center">${{item.volumen}}</td>
-                                <td class="d-none  d-lg-table-cell"><button type="button"
-                                        class="btn btn-outline-success">Comprar</button>
+                                <td class="d-none  d-lg-table-cell">
+                                    
+                                    <comprar-form [nombreAccion]="item.simbolo"></comprar-form>
                                 <td>
                             </tr>
     
@@ -87,6 +88,7 @@
                 </div>
             </main>
         </div>
+        <shared-footer></shared-footer>
     </div>
 
 </div>
