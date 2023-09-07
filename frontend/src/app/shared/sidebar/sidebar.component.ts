@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { SidebarService } from 'src/app/Services/sidebar.service';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'sidebar',
   templateUrl: './sidebar.component.html',
@@ -23,7 +23,12 @@ export class SidebarComponent {
     
   }
 
-  constructor(private _sideBarService: SidebarService){
+  constructor(private _sideBarService: SidebarService,
+    private router:Router){
   }
 
+  cerrarSesion(){
+    sessionStorage.removeItem('isUserLoginOn');
+    this.router.navigate(['/landing']);
+  }
 }
