@@ -1,27 +1,49 @@
-# Frontend
+## 2 Group Brokers 
+# PIL.NET 🙌
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Webapp SPA hecha en Angular para ARGBrokers
 
-## Code scaffolding
+# Sprint 02 Goal
+* App SPA 
+  * Landing page
+  * Dashboard
+  * Cotizaciones de acciones Argentinas vigentes leidas de db.json
+  * Barra de navegación 
+  * Formularios: login, registro de usuario
+  * Operación de compra de acciones 
+  * Web responsive.
+  * API de prueba/json data file
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Solucion
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para el **cliente** de la página se realizó utilizando Angular 16
 
-## Running unit tests
+* Cliente
+  * HTML
+  * CSS
+  * Bootstrap
+  * Angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  
+* Server
+  * json-server
 
-## Running end-to-end tests
+## Para poder probarlo en local deberá realizar los siguientes pasos
+ * Server
+  * npm i json-server
+  * npm run server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Cliente
+  * npm i
+  * npm start 
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Deploy 🚀
+
+
+
+Si llegaste aqui gracias 🙏🏼 me gusta ser leido, Buen Dia!
