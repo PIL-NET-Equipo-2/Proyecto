@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, FormControl, FormsModule } from '@angular/forms';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-registro',
   templateUrl: './registro.component.html',
@@ -9,8 +9,10 @@ import { FormBuilder, FormGroup, Validators, FormControl, FormsModule } from '@a
 export class RegistroComponent {
   formularioRegistro:FormGroup;
   ocultarPass:boolean = true;
+
   constructor(
-    private fb:FormBuilder
+    private fb:FormBuilder,
+    private router:Router
   ) {
     this.formularioRegistro=this.fb.group({
       nombre:['',Validators.required],
@@ -48,6 +50,7 @@ export class RegistroComponent {
 
   registrar(){
     console.log(this.formularioRegistro.value);
+    this.router.navigate(['/landing']);
     //Aca Va el codigo una vez que se tenga la api para registrarse.
   }
 }

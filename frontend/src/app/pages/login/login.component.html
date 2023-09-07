@@ -39,7 +39,7 @@
                                 <button [disabled]="formularioLogin.invalid" type="submit" class="btn btn-primary">Ingresar</button>
 
                             </div>
-                            <p class="text-center mt-3">¿No tiene cuenta? <a href="./registro.html">Regístrese</a></p>
+                            <p class="text-center mt-3">¿No tiene cuenta? <a routerLink="/registro">Regístrese</a></p>
                         </form>
                         <div class="alert alert-danger" role="alert" *ngIf="error?.length != 0 ">
                             {{error}}
