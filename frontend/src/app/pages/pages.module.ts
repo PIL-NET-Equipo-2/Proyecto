@@ -10,6 +10,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -23,6 +24,7 @@ import { RouterModule } from '@angular/router';
     LandingComponent,
     RegistroComponent,
     LoginComponent,
+    DashboardComponent,
     
   ],
   imports: [
