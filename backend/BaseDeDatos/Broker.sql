@@ -10,7 +10,7 @@ USE Broker
 
 CREATE TABLE Localidades(
 	Id_Localidad INT IDENTITY(1,1),
-	Nombre VARCHAR(50) NOT NULL,
+	Nombre VARCHAR(25) NOT NULL,
 	Fecha_Alta DATETIME DEFAULT GETDATE(),
 	Fecha_Baja DATETIME NULL,	
 	
@@ -20,12 +20,12 @@ CREATE TABLE Localidades(
 
 CREATE TABLE Personas(
 	Id_Persona INT IDENTITY(1,1),
-	Nombre VARCHAR(50) NOT NULL,
-	Apellido VARCHAR(50) NOT NULL,
-	Dni VARCHAR(50) NOT NULL,
+	Nombre VARCHAR(25) NOT NULL,
+	Apellido VARCHAR(25) NOT NULL,
+	Dni VARCHAR(25) NOT NULL,
 	Fecha_Nacimiento DATE NOT NULL,
-	Usuario VARCHAR(50) NOT NULL,
-	Contrasenia VARCHAR(50) NOT NULL,
+	Usuario VARCHAR(25) NOT NULL,
+	Contrasenia VARCHAR(25) NOT NULL,
 	Fecha_Alta DATETIME DEFAULT GETDATE(),
 	Fecha_Baja DATETIME NULL,
 	Id_Localidad INT,
@@ -37,7 +37,7 @@ CREATE TABLE Personas(
 
 CREATE TABLE Roles(
 	Id_Rol INT IDENTITY(1,1),
-	Nombre VARCHAR(50) NOT NULL,
+	Nombre VARCHAR(25) NOT NULL,
 	Fecha_Alta DATETIME DEFAULT GETDATE(),
 	Fecha_Baja DATETIME NULL,	
 	
@@ -59,8 +59,8 @@ CREATE TABLE Roles_Personas(
 
 CREATE TABLE Cuentas(
 	Id_Cuenta INT IDENTITY(1,1),
-	Cbu INT NOT NULL,
-	Saldo INT NOT NULL,
+	Cbu VARCHAR(25) NOT NULL,
+	Saldo DECIMAL(11,2) NOT NULL,
 	Esta_Habilitada BIT NOT NULL,
 	Fecha_Alta DATETIME DEFAULT GETDATE(),
 	Fecha_Baja DATETIME NULL,
@@ -75,8 +75,9 @@ CREATE TABLE Cuentas(
 CREATE TABLE Acciones(
 	Id_Accion INT IDENTITY(1,1),
 	Simbolo VARCHAR(50) NOT NULL,
-	Empresa VARCHAR(50) NOT NULL,
+	Empresa VARCHAR(25) NOT NULL,
 	Logo VARCHAR(50) NOT NULL,
+	Precio DECIMAL(11,2) NOT NULL,
 	Fecha_Alta DATETIME DEFAULT GETDATE(),
 	Fecha_Baja DATETIME NULL,	
 	
@@ -88,7 +89,7 @@ CREATE TABLE Compras(
 	Id_Compra INT IDENTITY(1,1),
 	Fecha DATETIME DEFAULT GETDATE(),
 	Cantidad INT NOT NULL,	
-	Precio INT NOT NULL,	
+	Total DECIMAL(11,2) NOT NULL,	
 	Fecha_Baja DATETIME NULL,
 	Id_Cuenta INT,
 	Id_Accion INT,
