@@ -23,6 +23,10 @@ builder.Services.AddSwaggerGen();
 
 //Agrego por cada service
 builder.Services.AddScoped<LocalidadService>();
+builder.Services.AddScoped<RolService>();
+builder.Services.AddScoped<PersonaService>();
+builder.Services.AddScoped<CuentaService>();
+builder.Services.AddScoped<CompraService>();
 
 //Agrego CORS
 builder.Services.AddCors(options =>
