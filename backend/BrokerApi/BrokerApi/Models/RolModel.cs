@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BrokerApi.Dtos;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BrokerApi.Models
@@ -20,5 +21,10 @@ namespace BrokerApi.Models
         public DateTime? FechaBaja { get; set; }
 
         public List<PersonaModel>? Personas { get; set; }
+
+        public RolDto toDto()
+        {
+            return new RolDto { IdRol = IdRol, Nombre = Nombre };
+        }
     }
 }

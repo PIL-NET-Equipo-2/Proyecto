@@ -1,4 +1,4 @@
-﻿using System;
+﻿using BrokerApi.Dtos;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -31,5 +31,12 @@ namespace BrokerApi.Models
 
         [ForeignKey("IdCuenta")]
         public CuentaModel? IdCuentaNavigation { get; set; }
+
+
+        public CompraDto toDto()
+        {
+            return new CompraDto { IdCompra = IdCompra, Fecha = Fecha, Cantidad = Cantidad, Total = Total, 
+                IdCuenta = IdCuenta, IdAccion = IdAccion };
+        }
     }
 }

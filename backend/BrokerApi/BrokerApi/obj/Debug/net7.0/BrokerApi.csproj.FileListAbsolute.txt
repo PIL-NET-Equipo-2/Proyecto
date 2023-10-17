@@ -74,3 +74,307 @@ C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\Broke
 C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.pdb
 C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.genruntimeconfig.cache
 C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\BrokerApi\BrokerApi\obj\Debug\net7.0\ref\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.exe
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.deps.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.runtimeconfig.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.BrokerApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.build.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\scopedcss\bundle\BrokerApi.styles.css
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CopyComplete
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\refint\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.genruntimeconfig.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\02 BA con Loggin\BrokerApi\BrokerApi\obj\Debug\net7.0\ref\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.exe
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.deps.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.runtimeconfig.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.BrokerApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.build.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\scopedcss\bundle\BrokerApi.styles.css
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CopyComplete
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\refint\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.genruntimeconfig.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\03 BA con Loggin y Cuenta\BrokerApi\BrokerApi\obj\Debug\net7.0\ref\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.exe
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.deps.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.runtimeconfig.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.BrokerApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.build.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\scopedcss\bundle\BrokerApi.styles.css
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CopyComplete
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\refint\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.genruntimeconfig.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\04 BA con L C y Compra\BrokerApi\BrokerApi\obj\Debug\net7.0\ref\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.exe
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.deps.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.runtimeconfig.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.AssemblyReference.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfoInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.AssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.BrokerApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.build.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BrokerApi.props
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\scopedcss\bundle\BrokerApi.styles.css
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.csproj.CopyComplete
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\refint\BrokerApi.dll
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.pdb
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\BrokerApi.genruntimeconfig.cache
+C:\Users\Diego\Documents\Archivos\02 FACULTAD\06 ISPC\2023\Proyecto Broker\05\BrokerApi\BrokerApi\obj\Debug\net7.0\ref\BrokerApi.dll

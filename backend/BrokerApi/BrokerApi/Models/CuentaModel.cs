@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BrokerApi.Dtos;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BrokerApi.Models
@@ -30,5 +31,22 @@ namespace BrokerApi.Models
         public PersonaModel? IdPersonaNavigation { get; set; }
 
         public List<CompraModel>? Compras { get; set; }
+
+
+        public CuentaDto toDto()
+        {
+            return new CuentaDto { IdCuenta = IdCuenta, Cbu = Cbu, Saldo = Saldo, 
+                EstaHabilitada = EstaHabilitada, IdPersona = IdPersona };
+        }
     }
 }
+
+/*
+ public PersonaDto toDto()
+        {
+            return new PersonaDto { IdPersona= IdPersona, Nombre = Nombre, Apellido= Apellido, 
+                Dni = Dni, FechaNacimiento = FechaNacimiento, Usuario = Usuario, 
+                Contrasenia = Contrasenia, IdLocalidad = IdLocalidad };
+        }
+ 
+ */
