@@ -4,3 +4,4 @@
 
 /backend/BrokerApi/.vs
 /.gitignore
+/backend/BrokerApi/BrokerApi/appsettings.json
