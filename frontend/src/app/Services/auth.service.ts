@@ -2,27 +2,27 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, catchError, tap, throwError } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
+import { environment } from 'src/environments/environment';
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  urlApi: string = "https://reqres.in/api/login"
+  private urlApi:string = environment.endpoint + "persona/";
   currentUserLoginOn: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
   constructor(private http: HttpClient) { }
 
   login(request: any): Observable<any> {
-
-    return this.http.post(this.urlApi, request)
+    console.log(request);
+    return this.http.get(this.urlApi, request)
       .pipe(
         tap((token) => {
-          if (JSON.stringify(token).length != 0) {
-            this.currentUserLoginOn.next(true);
-            sessionStorage.setItem('isUserLoginOn', 'true')
-          }
-            console.log(token);
-          }),
+         
+            sessionStorage.setItem('isUserLoginOn', 'true'),
+        
+          console.log("se logueo");
+        
         catchError(this.handleError)
-      );
+        }));
   }
 
   get isUserLoginOn():Observable<boolean>{
