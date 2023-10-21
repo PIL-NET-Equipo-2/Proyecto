@@ -1,3 +1,4 @@
+using BrokerBackend.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,8 @@ var configuration = new ConfigurationBuilder()
 //Get connection string
 var connectionString = builder.Configuration.GetConnectionString("connMyDB");
 
+//Add dbContext
+builder.Services.AddDbContext<BrokerContext>(options => options.UseSqlServer(connectionString));
 
 // Add services to the container.
 
@@ -17,6 +20,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// servicios
 
 //Agrego CORS
 builder.Services.AddCors(options =>
@@ -46,6 +50,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 //Agrego CORS
-app.UseCors();
+app.UseCors(); 
 
 app.Run();
