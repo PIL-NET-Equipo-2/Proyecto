@@ -16,7 +16,7 @@ namespace BrokerBackend.Models
         public string Name { get; set; } = null!;
 
         public List<PersonModel>? Person { get; set; }
-        public RolDto toDto()
+        public RolDto ToDto()
         {
             return new RolDto { 
                 IdRol = IdRol,

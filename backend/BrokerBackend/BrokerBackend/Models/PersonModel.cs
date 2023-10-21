@@ -51,7 +51,7 @@ namespace BrokerBackend.Models
         [Column(TypeName = "datetime")]
         public DateTime? InactiveDate { get; set; }
 
-        public PersonDto toDto()
+        public PersonDto ToDto()
         {
             return new PersonDto
             {

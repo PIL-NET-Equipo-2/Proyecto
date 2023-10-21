@@ -1,4 +1,5 @@
 using BrokerBackend.Repositories;
+using BrokerBackend.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,7 +21,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// servicios
+// servicios 
+builder.Services.AddScoped<PersonService>();
+builder.Services.AddScoped<PurchasesService>();
+builder.Services.AddScoped<RolService>();
+builder.Services.AddScoped<StockService>();
 
 //Agrego CORS
 builder.Services.AddCors(options =>

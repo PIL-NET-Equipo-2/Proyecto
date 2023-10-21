@@ -30,7 +30,7 @@ namespace BrokerBackend.Models
         [ForeignKey("IdPerson")]
         public PersonModel? IdCuentaNavigation { get; set; }
 
-        public PurchasesDto toDto()
+        public PurchasesDto ToDto()
         {
             return new PurchasesDto
             {

@@ -32,7 +32,7 @@ namespace BrokerBackend.Models
 
         public List<PurchasesModel>? Purchases { get; set; }
 
-        public StockDto toDto()
+        public StockDto ToDto()
         {
             return new StockDto { 
                 IdStock = IdStock,
