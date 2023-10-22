@@ -7,7 +7,7 @@ namespace BrokerBackend.Services
     public class PurchasesService
     {
         private readonly BrokerContext brokerContext;
-        public PurchasesService(BrokerContext brokerContext)
+        public PurchasesService(BrokerContext brokerContext) 
         {
             this.brokerContext = brokerContext;
         }
@@ -18,8 +18,8 @@ namespace BrokerBackend.Services
         }
         public async Task<PurchasesDto?> GetById(int id)
         {
-            PurchasesModel? compra = await brokerContext.GetPurchase(id);
-            return compra?.ToDto();
+            PurchasesModel? purchase = await brokerContext.GetPurchaseById(id);
+            return purchase?.ToDto();
         }
 
         public async Task<PurchasesDto?> Create(NewPurchasesDto purchasesDto)

@@ -19,7 +19,7 @@ namespace BrokerBackend.Services
         }
         public async Task<StockDto?> GetById(int id)
         {
-            StockModel? stock = await brokerContext.GetStock(id);
+            StockModel? stock = await brokerContext.GetStockById(id);
             return stock?.ToDto();
         }
 

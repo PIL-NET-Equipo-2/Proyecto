@@ -14,7 +14,7 @@ namespace BrokerBackend.Services
 
         public async Task<RolDto?> GetById(int id)
         {
-            RolModel? rol = await brokerContext.GetRol(id);
+            RolModel? rol = await brokerContext.GetRolById(id);
             return rol?.ToDto();
         }
 

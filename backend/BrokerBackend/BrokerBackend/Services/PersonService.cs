@@ -16,17 +16,17 @@ namespace BrokerBackend.Services
 
         public async Task<List<PersonDto>> GetAll()
         {
-            return brokerContext.GetAllPerson().Result.Select(x => x.toDto()).ToList();
+            return brokerContext.GetAll().Result.Select(x => x.toDto()).ToList();
         }
         public async Task<PersonDto?> GetById(int id)
         {
-            PersonModel? persona = await brokerContext.GetPerson(id);
-            return persona?.ToDto();
+            PersonModel? person = await brokerContext.GetById(id);
+            return person?.ToDto();
         }
 
         public async Task<PersonDto?> Create(NewPersonDto personDto)
         {
-            PersonModel persona = new PersonModel
+            PersonModel person = new PersonModel
             {
                 Name = personDto.Name,
                 Lastname = personDto.Lastname,
@@ -42,7 +42,7 @@ namespace BrokerBackend.Services
                 InactiveDate = personDto.InactiveDate
             };
 
-            PersonModel? result = await brokerContext.CreatePerson(persona);
+            PersonModel? result = await brokerContext.CreatePerson(person);
             return result?.ToDto();
         }
 
@@ -58,8 +58,8 @@ namespace BrokerBackend.Services
 
         public async Task<PersonDto?> Loguin(string usuario, string contrasenia)
         {
-            PersonModel? persona = await brokerContext.LoginPersona(usuario, contrasenia);
-            return persona?.ToDto();
+            PersonModel? person = await brokerContext.Login(usuario, contrasenia);
+            return person?.ToDto();
         }
     }
 }
