@@ -14,7 +14,7 @@ namespace BrokerBackend.Services
 
         public async Task<List<PurchasesDto>> GetAll()
         {
-            return brokerContext.GetAllPurchases().Result.Select(x => x.toDto()).ToList();
+            return brokerContext.GetAllPurchases().Result.Select(x => x.ToDto()).ToList();
         }
         public async Task<PurchasesDto?> GetById(int id)
         {
@@ -26,7 +26,6 @@ namespace BrokerBackend.Services
         {
             PurchasesModel purchases = new PurchasesModel
             {
-                IdPurchase = purchasesDto.IdPurchase,
                 PurchaseDate = purchasesDto.PurchaseDate,
                 Quantity = purchasesDto.Quantity,
                 Total = purchasesDto.Total,
@@ -34,7 +33,7 @@ namespace BrokerBackend.Services
                 IdStock = purchasesDto.IdStock
             };
 
-            PurchasesModel? result = await brokerContext.CreatePurchases(Purchases);
+            PurchasesModel? result = await brokerContext.CreatePurchases(purchases);
             return result?.ToDto();
         }
 

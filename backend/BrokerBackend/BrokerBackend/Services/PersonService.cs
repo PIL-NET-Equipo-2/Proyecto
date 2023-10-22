@@ -16,11 +16,11 @@ namespace BrokerBackend.Services
 
         public async Task<List<PersonDto>> GetAll()
         {
-            return brokerContext.GetAll().Result.Select(x => x.toDto()).ToList();
+            return brokerContext.GetAllPerson().Result.Select(x => x.toDto()).ToList();
         }
         public async Task<PersonDto?> GetById(int id)
         {
-            PersonModel? person = await brokerContext.GetById(id);
+            PersonModel? person = await brokerContext.GetPersonById(id);
             return person?.ToDto();
         }
 
