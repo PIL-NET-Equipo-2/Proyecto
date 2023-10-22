@@ -21,11 +21,7 @@ namespace BrokerBackend.Repositories
 
 
         //*********** R O L ***********
-        public async Task<List<RolModel>> GetAllRol()
-        {
-            return await Rol.ToListAsync();
-        }
-        public async Task<RolModel?> GetRol(int id)
+        public async Task<RolModel?> GetRolById(int id)
         {
             RolModel? rol = await Rol.FirstOrDefaultAsync(p => p.IdRol == id);
             return rol;
@@ -34,7 +30,7 @@ namespace BrokerBackend.Repositories
         {
             EntityEntry<RolModel> response = await Rol.AddAsync(rol);
             await SaveChangesAsync();
-            return await GetRol(response.Entity.IdRol);
+            return await GetRolById(response.Entity.IdRol);
         }
         public void UpdateRol(int id, string nombre)
         {
@@ -62,7 +58,7 @@ namespace BrokerBackend.Repositories
         {
             return await Person.ToListAsync();
         }
-        public async Task<PersonModel?> GetPersonByID(int id)
+        public async Task<PersonModel?> GetPersonById(int id)
         {
             PersonModel? person = await Person.FirstOrDefaultAsync(p => p.IdPerson == id);
             return person;
@@ -71,10 +67,10 @@ namespace BrokerBackend.Repositories
         {
             EntityEntry<PersonModel> response = await Person.AddAsync(person);
             await SaveChangesAsync();
-            return await GetPersonByID(response.Entity.IdPerson);
+            return await GetPersonById(response.Entity.IdPerson);
         }
 
-        public void UpdatePersona(int id, string usuario, string contrasenia)
+        public void UpdatePerson(int id, string usuario, string contrasenia)
         {
             PersonModel? person = Person.FirstOrDefault(x => x.IdPerson == id);
             if (person != null)
@@ -84,7 +80,7 @@ namespace BrokerBackend.Repositories
                 SaveChanges();
             }
         }
-        public void DeletePersona(int id)
+        public void DeletePerson(int id)
         {
             PersonModel? persona = Person.FirstOrDefault(x => x.IdPerson == id);
             if (persona != null)
@@ -149,6 +145,24 @@ namespace BrokerBackend.Repositories
         public async Task<List<PurchasesModel>> HistoryPurchases(int idCuenta)
         {
             return await Purchases.Where(p => p.IdPerson == idCuenta).ToListAsync();
+        }
+
+        //*********** A C C I O N E S ***********
+
+        public async Task<List<StockModel>> GetAllStock()
+        {
+            return await Stock.ToListAsync();
+        }
+        public async Task<StockModel?> GetStockById(int id)
+        {
+            StockModel? stock = await Stock.FirstOrDefaultAsync(p => p.IdStock == id);
+            return stock;
+        }
+        public async Task<StockModel?> CreateStock(StockModel stock)
+        {
+            EntityEntry<StockModel> response = await Stock.AddAsync(stock);
+            await SaveChangesAsync();
+            return await GetStockById(response.Entity.IdStock);
         }
     }
 }

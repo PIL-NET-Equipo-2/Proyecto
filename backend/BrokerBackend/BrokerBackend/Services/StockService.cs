@@ -15,7 +15,7 @@ namespace BrokerBackend.Services
 
         public async Task<List<StockDto>> GetAll()
         {
-            return brokerContext.GetAllStock().Result.Select(x => x.toDto()).ToList();
+            return brokerContext.GetAllStock().Result.Select(x => x.ToDto()).ToList();
         }
         public async Task<StockDto?> GetById(int id)
         {
@@ -25,9 +25,8 @@ namespace BrokerBackend.Services
 
         public async Task<StockDto?> Create(NewStockDto stockDto)
         {
-            PersonModel stock = new StockModel
+            StockModel stock = new StockModel
             {
-                IdStock = stockDto.IdStock,
                 Symbol = stockDto.Symbol,
                 Company = stockDto.Company,
                 Logo = stockDto.Logo,

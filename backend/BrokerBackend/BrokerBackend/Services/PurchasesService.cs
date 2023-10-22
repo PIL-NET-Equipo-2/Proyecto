@@ -49,7 +49,7 @@ namespace BrokerBackend.Services
 
         public async Task<List<PurchasesDto>> History(int idCuenta)
         {
-            return brokerContext.HistoryPurchases(idCuenta).Result.Select(x => x.toDto()).ToList();
+            return brokerContext.HistoryPurchases(idCuenta).Result.Select(x => x.ToDto()).ToList();
         }
     }
 }

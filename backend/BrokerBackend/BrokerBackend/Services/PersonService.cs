@@ -16,7 +16,7 @@ namespace BrokerBackend.Services
 
         public async Task<List<PersonDto>> GetAll()
         {
-            return brokerContext.GetAllPerson().Result.Select(x => x.toDto()).ToList();
+            return brokerContext.GetAllPerson().Result.Select(x => x.ToDto()).ToList();
         }
         public async Task<PersonDto?> GetById(int id)
         {
@@ -56,7 +56,7 @@ namespace BrokerBackend.Services
             brokerContext.DeletePerson(id);
         }
 
-        public async Task<PersonDto?> Loguin(string usuario, string contrasenia)
+        public async Task<PersonDto?> Login(string usuario, string contrasenia)
         {
             PersonModel? person = await brokerContext.Login(usuario, contrasenia);
             return person?.ToDto();

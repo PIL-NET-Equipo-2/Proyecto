@@ -5,7 +5,6 @@ namespace BrokerBackend.Dtos
 {
     public class StockDto
     {
-        public int IdStock { get; set; }
         public string Symbol { get; set; } = null!;
         public string Company { get; set; } = null!;
         public string Logo { get; set; } = null!;

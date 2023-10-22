@@ -35,7 +35,6 @@ namespace BrokerBackend.Models
         public StockDto ToDto()
         {
             return new StockDto { 
-                IdStock = IdStock,
                 Symbol = Symbol,
                 Company = Company,
                 Logo = Logo,

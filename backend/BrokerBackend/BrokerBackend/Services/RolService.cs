@@ -22,7 +22,6 @@ namespace BrokerBackend.Services
         {
             RolModel rol = new RolModel
             {
-                IdRol = rolDto.IdRol,
                 Name = rolDto.Name
             };
 
