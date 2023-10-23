@@ -23,7 +23,7 @@ namespace BrokerBackend.Models
         [Column(TypeName = "varchar(15)")]
         public string Gender { get; set; } = null!;
 
-        [Column(TypeName = "varchar(15)")]
+        [Column(TypeName = "varchar(40)")]
         public string Mail { get; set; } = null!;
 
         [Column(TypeName = "varchar(15)")]
@@ -50,8 +50,8 @@ namespace BrokerBackend.Models
         [Column(TypeName = "datetime")]
         public DateTime? InactiveDate { get; set; }
 
-        [ForeignKey("IdRol")]
-        public RolModel? IdRolNavigation { get; set; }
+        //[ForeignKey("IdRol")]
+        //public RolModel? IdRolNavigation { get; set; }
 
         public PersonDto ToDto()
         {
