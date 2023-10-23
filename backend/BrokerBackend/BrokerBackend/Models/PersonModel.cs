@@ -50,6 +50,9 @@ namespace BrokerBackend.Models
         [Column(TypeName = "datetime")]
         public DateTime? InactiveDate { get; set; }
 
+        [ForeignKey("IdRol")]
+        public RolModel? IdRolNavigation { get; set; }
+
         public PersonDto ToDto()
         {
             return new PersonDto
