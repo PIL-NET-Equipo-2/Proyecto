@@ -1,7 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using BrokerBackend.Dtos;
 using System.ComponentModel.DataAnnotations;
-using BrokerBackend.Dtos;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BrokerBackend.Models
 {
@@ -24,7 +23,7 @@ namespace BrokerBackend.Models
         [Column(TypeName = "varchar(15)")]
         public string Gender { get; set; } = null!;
 
-        [Column(TypeName = "varchar(15)")]
+        [Column(TypeName = "varchar(40)")]
         public string Mail { get; set; } = null!;
 
         [Column(TypeName = "varchar(15)")]
@@ -37,19 +36,22 @@ namespace BrokerBackend.Models
         public string City { get; set; } = null!;
 
         [Column(TypeName = "varchar(15)")]
-        public string Adress { get; set; } = null!;
+        public string Address { get; set; } = null!;
 
         [Column(TypeName = "decimal(11,2)")]
         public decimal AccountMoney { get; set; }
 
         public List<PurchasesModel>? Purchases { get; set; }
-        public List<RolModel>? Rol { get; set; }
+        public int IdRol { get; set; }
 
         [Column(TypeName = "datetime")]
         public DateTime? ActiveDate { get; set; } = DateTime.Today;
 
         [Column(TypeName = "datetime")]
         public DateTime? InactiveDate { get; set; }
+
+        //[ForeignKey("IdRol")]
+        //public RolModel? IdRolNavigation { get; set; }
 
         public PersonDto ToDto()
         {
@@ -64,10 +66,11 @@ namespace BrokerBackend.Models
                 Password = Password,
                 State = State,
                 City = City,
-                Adress = Adress,
+                Address = Address,
                 AccountMoney = AccountMoney,
                 ActiveDate = ActiveDate,
-                InactiveDate = InactiveDate
+                InactiveDate = InactiveDate,
+                IdRol = IdRol
             };
         }
 

@@ -4,6 +4,7 @@ using BrokerBackend.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BrokerBackend.Migrations
 {
     [DbContext(typeof(BrokerContext))]
-    partial class BrokerContextModelSnapshot : ModelSnapshot
+    [Migration("20231023201906_V1.6")]
+    partial class V16
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,7 +67,7 @@ namespace BrokerBackend.Migrations
 
                     b.Property<string>("Mail")
                         .IsRequired()
-                        .HasColumnType("varchar(40)");
+                        .HasColumnType("varchar(15)");
 
                     b.Property<string>("Name")
                         .IsRequired()

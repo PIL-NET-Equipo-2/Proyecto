@@ -1,6 +1,4 @@
-﻿using BrokerBackend.Models;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace BrokerBackend.Dtos
 {
@@ -32,13 +30,11 @@ namespace BrokerBackend.Dtos
         public string City { get; set; } = null!;
 
         [Required(ErrorMessage = "La direccion es requerida")]
-        public string Adress { get; set; } = null!;
+        public string Address { get; set; } = null!;
 
         public decimal AccountMoney { get; set; }
 
-        public List<PurchasesModel>? Purchases { get; set; }
-
-        public List<RolModel>? Rol { get; set; }
+        public int IdRol { get; set; }
 
         public DateTime? ActiveDate { get; set; } = DateTime.Today;
 

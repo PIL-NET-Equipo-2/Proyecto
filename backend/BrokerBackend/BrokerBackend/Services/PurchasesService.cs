@@ -7,7 +7,7 @@ namespace BrokerBackend.Services
     public class PurchasesService
     {
         private readonly BrokerContext brokerContext;
-        public PurchasesService(BrokerContext brokerContext) 
+        public PurchasesService(BrokerContext brokerContext)
         {
             this.brokerContext = brokerContext;
         }
@@ -30,7 +30,6 @@ namespace BrokerBackend.Services
                 Quantity = purchasesDto.Quantity,
                 Total = purchasesDto.Total,
                 IdPerson = purchasesDto.IdPerson,
-                IdStock = purchasesDto.IdStock
             };
 
             PurchasesModel? result = await brokerContext.CreatePurchases(purchases);

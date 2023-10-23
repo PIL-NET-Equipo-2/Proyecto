@@ -4,6 +4,7 @@ using BrokerBackend.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BrokerBackend.Migrations
 {
     [DbContext(typeof(BrokerContext))]
-    partial class BrokerContextModelSnapshot : ModelSnapshot
+    [Migration("20231023183733_V1.3")]
+    partial class V13
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,7 +67,7 @@ namespace BrokerBackend.Migrations
 
                     b.Property<string>("Mail")
                         .IsRequired()
-                        .HasColumnType("varchar(40)");
+                        .HasColumnType("varchar(15)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -99,14 +102,14 @@ namespace BrokerBackend.Migrations
                     b.Property<int?>("IdPerson")
                         .HasColumnType("int");
 
+                    b.Property<int?>("IdStock")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("PurchaseDate")
                         .HasColumnType("datetime");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
-
-                    b.Property<string>("Symbol")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Total")
                         .HasColumnType("decimal(11,2)");
@@ -114,6 +117,8 @@ namespace BrokerBackend.Migrations
                     b.HasKey("IdPurchase");
 
                     b.HasIndex("IdPerson");
+
+                    b.HasIndex("IdStock");
 
                     b.ToTable("Purchases");
                 });
@@ -135,6 +140,40 @@ namespace BrokerBackend.Migrations
                     b.ToTable("Rol");
                 });
 
+            modelBuilder.Entity("BrokerBackend.Models.StockModel", b =>
+                {
+                    b.Property<int>("IdStock")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdStock"));
+
+                    b.Property<DateTime?>("ActiveDate")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("Company")
+                        .IsRequired()
+                        .HasColumnType("varchar(15)");
+
+                    b.Property<DateTime?>("InactiveDate")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("Logo")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(11,2)");
+
+                    b.Property<string>("Symbol")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)");
+
+                    b.HasKey("IdStock");
+
+                    b.ToTable("Stock");
+                });
+
             modelBuilder.Entity("BrokerBackend.Models.PersonModel", b =>
                 {
                     b.HasOne("BrokerBackend.Models.RolModel", null)
@@ -148,6 +187,12 @@ namespace BrokerBackend.Migrations
                         .WithMany("Purchases")
                         .HasForeignKey("IdPerson");
 
+                    b.HasOne("BrokerBackend.Models.StockModel", "IdAccionNavigation")
+                        .WithMany("Purchases")
+                        .HasForeignKey("IdStock");
+
+                    b.Navigation("IdAccionNavigation");
+
                     b.Navigation("IdCuentaNavigation");
                 });
 
@@ -159,6 +204,11 @@ namespace BrokerBackend.Migrations
             modelBuilder.Entity("BrokerBackend.Models.RolModel", b =>
                 {
                     b.Navigation("Person");
+                });
+
+            modelBuilder.Entity("BrokerBackend.Models.StockModel", b =>
+                {
+                    b.Navigation("Purchases");
                 });
 #pragma warning restore 612, 618
         }

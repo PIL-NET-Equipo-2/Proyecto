@@ -1,6 +1,5 @@
 ﻿using BrokerBackend.Dtos;
 using BrokerBackend.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BrokerBackend.Controllers
@@ -56,4 +55,4 @@ namespace BrokerBackend.Controllers
             return person != null ? Ok("Bienvenido " + usuario) : NotFound("Usuario o Contraseña Inválida");
         }
     }
-} 
+}

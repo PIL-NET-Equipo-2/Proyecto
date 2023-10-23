@@ -25,7 +25,6 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<PersonService>();
 builder.Services.AddScoped<PurchasesService>();
 builder.Services.AddScoped<RolService>();
-builder.Services.AddScoped<StockService>();
 
 //Agrego CORS
 builder.Services.AddCors(options =>
@@ -55,6 +54,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 //Agrego CORS
-app.UseCors(); 
+app.UseCors();
 
 app.Run();

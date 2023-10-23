@@ -1,5 +1,4 @@
 ﻿using BrokerBackend.Models;
-using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
@@ -16,9 +15,6 @@ namespace BrokerBackend.Repositories
         public DbSet<RolModel> Rol { get; set; }
 
         public DbSet<PurchasesModel> Purchases { get; set; }
-
-        public DbSet<StockModel> Stock { get; set; }
-
 
         //*********** R O L ***********
         public async Task<RolModel?> GetRolById(int id)
@@ -145,24 +141,6 @@ namespace BrokerBackend.Repositories
         public async Task<List<PurchasesModel>> HistoryPurchases(int idCuenta)
         {
             return await Purchases.Where(p => p.IdPerson == idCuenta).ToListAsync();
-        }
-
-        //*********** A C C I O N E S ***********
-
-        public async Task<List<StockModel>> GetAllStock()
-        {
-            return await Stock.ToListAsync();
-        }
-        public async Task<StockModel?> GetStockById(int id)
-        {
-            StockModel? stock = await Stock.FirstOrDefaultAsync(p => p.IdStock == id);
-            return stock;
-        }
-        public async Task<StockModel?> CreateStock(StockModel stock)
-        {
-            EntityEntry<StockModel> response = await Stock.AddAsync(stock);
-            await SaveChangesAsync();
-            return await GetStockById(response.Entity.IdStock);
         }
     }
 }

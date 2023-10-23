@@ -1,8 +1,6 @@
 ﻿using BrokerBackend.Dtos;
 using BrokerBackend.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace BrokerBackend.Controllers
 {
@@ -20,13 +18,6 @@ namespace BrokerBackend.Controllers
         public async Task<IActionResult> GetAll()
         {
             return Ok(await this.purchasesService.GetAll());
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult?> GetById(int id)
-        {
-            PurchasesDto? purchases = await purchasesService.GetById(id);
-            return purchases != null ? Ok(purchases) : NotFound();
         }
 
         [HttpPost]

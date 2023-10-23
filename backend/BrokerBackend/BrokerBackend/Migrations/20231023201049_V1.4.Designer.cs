@@ -4,6 +4,7 @@ using BrokerBackend.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BrokerBackend.Migrations
 {
     [DbContext(typeof(BrokerContext))]
-    partial class BrokerContextModelSnapshot : ModelSnapshot
+    [Migration("20231023201049_V1.4")]
+    partial class V14
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,7 +67,7 @@ namespace BrokerBackend.Migrations
 
                     b.Property<string>("Mail")
                         .IsRequired()
-                        .HasColumnType("varchar(40)");
+                        .HasColumnType("varchar(15)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -74,16 +77,13 @@ namespace BrokerBackend.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(15)");
 
-                    b.Property<int?>("RolModelIdRol")
-                        .HasColumnType("int");
-
                     b.Property<string>("State")
                         .IsRequired()
                         .HasColumnType("varchar(15)");
 
                     b.HasKey("IdPerson");
 
-                    b.HasIndex("RolModelIdRol");
+                    b.HasIndex("IdRol");
 
                     b.ToTable("Persons");
                 });
@@ -137,9 +137,13 @@ namespace BrokerBackend.Migrations
 
             modelBuilder.Entity("BrokerBackend.Models.PersonModel", b =>
                 {
-                    b.HasOne("BrokerBackend.Models.RolModel", null)
+                    b.HasOne("BrokerBackend.Models.RolModel", "IdRolNavigation")
                         .WithMany("Person")
-                        .HasForeignKey("RolModelIdRol");
+                        .HasForeignKey("IdRol")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("IdRolNavigation");
                 });
 
             modelBuilder.Entity("BrokerBackend.Models.PurchasesModel", b =>

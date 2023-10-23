@@ -1,7 +1,6 @@
 ﻿using BrokerBackend.Dtos;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BrokerBackend.Models
 {
@@ -18,9 +17,11 @@ namespace BrokerBackend.Models
         public List<PersonModel>? Person { get; set; }
         public RolDto ToDto()
         {
-            return new RolDto { 
+            return new RolDto
+            {
                 IdRol = IdRol,
-                Name = Name 
+                Name = Name,
+                Person = Person
             };
         }
     }

@@ -1,7 +1,4 @@
-﻿using BrokerBackend.Models;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace BrokerBackend.Dtos
+﻿namespace BrokerBackend.Dtos
 {
     public class NewPurchasesDto
     {
@@ -14,10 +11,6 @@ namespace BrokerBackend.Dtos
         public int? IdPerson { get; set; }
 
         public int? IdStock { get; set; }
-
-        public StockModel? IdAccionNavigation { get; set; }
-
-        public PersonModel? IdCuentaNavigation { get; set; }
 
     }
 }

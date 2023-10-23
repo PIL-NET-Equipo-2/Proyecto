@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc.ApplicationModels;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using BrokerBackend.Dtos;
 using System.ComponentModel.DataAnnotations;
-using BrokerBackend.Dtos;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BrokerBackend.Models
 {
@@ -21,11 +20,8 @@ namespace BrokerBackend.Models
         public decimal Total { get; set; }
 
         public int? IdPerson { get; set; }
-         
-        public int? IdStock { get; set; }
 
-        [ForeignKey("IdStock")]
-        public StockModel? IdAccionNavigation { get; set; }
+        public string? Symbol { get; set; }
 
         [ForeignKey("IdPerson")]
         public PersonModel? IdCuentaNavigation { get; set; }
@@ -39,7 +35,6 @@ namespace BrokerBackend.Models
                 Quantity = Quantity,
                 Total = Total,
                 IdPerson = IdPerson,
-                IdStock = IdStock
             };
         }
     }
