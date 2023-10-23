@@ -145,23 +145,5 @@ namespace BrokerBackend.Repositories
         {
             return await Purchases.Where(p => p.IdPerson == idCuenta).ToListAsync();
         }
-
-        //*********** A C C I O N E S ***********
-
-        public async Task<List<StockModel>> GetAllStock()
-        {
-            return await Stock.ToListAsync();
-        }
-        public async Task<StockModel?> GetStockById(int id)
-        {
-            StockModel? stock = await Stock.FirstOrDefaultAsync(p => p.IdStock == id);
-            return stock;
-        }
-        public async Task<StockModel?> CreateStock(StockModel stock)
-        {
-            EntityEntry<StockModel> response = await Stock.AddAsync(stock);
-            await SaveChangesAsync();
-            return await GetStockById(response.Entity.IdStock);
-        }
     }
 }
