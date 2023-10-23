@@ -1,5 +1,4 @@
 ﻿using BrokerBackend.Models;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BrokerBackend.Dtos
 {
@@ -7,5 +6,7 @@ namespace BrokerBackend.Dtos
     {
         public int IdRol { get; set; }
         public string Name { get; set; } = null!;
+        public List<PersonModel>? Person { get; set; }
+
     }
 }

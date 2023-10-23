@@ -1,7 +1,4 @@
-﻿using BrokerBackend.Models;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace BrokerBackend.Dtos
+﻿namespace BrokerBackend.Dtos
 {
     public class PersonDto
     {
@@ -14,7 +11,8 @@ namespace BrokerBackend.Dtos
         public string Password { get; set; } = null!;
         public string State { get; set; } = null!;
         public string City { get; set; } = null!;
-        public string Adress { get; set; } = null!;
+        public string Address { get; set; } = null!;
+        public int IdRol { get; set; }
         public decimal AccountMoney { get; set; }
         public DateTime? ActiveDate { get; set; } = DateTime.Today;
         public DateTime? InactiveDate { get; set; }

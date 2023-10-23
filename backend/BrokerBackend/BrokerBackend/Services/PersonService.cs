@@ -1,14 +1,15 @@
 ﻿using BrokerBackend.Dtos;
 using BrokerBackend.Models;
 using BrokerBackend.Repositories;
-using System.Net;
-using System.Reflection;
 
 namespace BrokerBackend.Services
 {
     public class PersonService
     {
         private readonly BrokerContext brokerContext;
+
+        public object Rol { get; private set; }
+
         public PersonService(BrokerContext brokerContext)
         {
             this.brokerContext = brokerContext;
@@ -36,10 +37,11 @@ namespace BrokerBackend.Services
                 Password = personDto.Password,
                 State = personDto.State,
                 City = personDto.City,
-                Adress = personDto.Adress,
-                AccountMoney = personDto.AccountMoney,
+                Address = personDto.Address,
+                AccountMoney = 1000000,
                 ActiveDate = personDto.ActiveDate,
-                InactiveDate = personDto.InactiveDate
+                InactiveDate = personDto.InactiveDate,
+                IdRol = 2
             };
 
             PersonModel? result = await brokerContext.CreatePerson(person);
