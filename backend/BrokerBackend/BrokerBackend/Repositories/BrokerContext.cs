@@ -16,9 +16,6 @@ namespace BrokerBackend.Repositories
 
         public DbSet<PurchasesModel> Purchases { get; set; }
 
-        public DbSet<StockModel> Stock { get; set; }
-
-
         //*********** R O L ***********
         public async Task<RolModel?> GetRolById(int id)
         {
