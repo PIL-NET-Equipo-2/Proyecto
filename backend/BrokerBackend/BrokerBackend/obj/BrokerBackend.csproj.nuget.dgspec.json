@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {}
+    "C:\\Users\\felip\\OneDrive\\Escritorio\\PRUEBA - PIL\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {
+    "C:\\Users\\felip\\OneDrive\\Escritorio\\PRUEBA - PIL\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Escritorio\\PRUEBA - PIL\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
         "projectName": "BrokerBackend",
-        "projectPath": "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
-        "packagesPath": "C:\\Users\\sacle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\obj\\",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Escritorio\\PRUEBA - PIL\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Escritorio\\PRUEBA - PIL\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sacle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

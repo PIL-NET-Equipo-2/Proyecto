@@ -35,18 +35,19 @@ export class LoginComponent {
     const formData: Login = this.formularioLogin.value;
     console.log(formData);
     this._authService.login(formData).subscribe(
-      {
-        next:(data)=>{
-          console.log(data);
-          this.router.navigate(['/']);
-        },
-        error:(e)=>{
-          this.error = e;
+      (response) => {
+        
+        localStorage.setItem('datos', JSON.stringify(response));
+       
+        this.router.navigate(['/']);
+      },
+      (error) => {
+        this.error = error;
           console.log(this.error);
-        }
       }
-    )
+    );
   }
 
 
+  
 }
