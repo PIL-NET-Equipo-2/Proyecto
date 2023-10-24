@@ -20,13 +20,13 @@ export class AuthService {
     return this.http.get(loginUrl).pipe(
       map((response: any) => {
         console.log(response);
-        if (response.status === 200) {         
+        /* if (response.status === 200) {         
           localStorage.setItem('isUserLoginOn', "true"); 
           return response; 
         } else {  
           console.log(response);
           throw new Error('Error en las credenciales');
-        }
+        } */
       }),
       catchError((error) => {  
         console.log(error);

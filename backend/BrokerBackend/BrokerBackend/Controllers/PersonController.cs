@@ -52,7 +52,7 @@ namespace BrokerBackend.Controllers
         public async Task<IActionResult?> Login(string usuario, string contrasenia)
         {
             PersonDto? person = await personService.Login(usuario, contrasenia);
-            return person != null ? Ok(new { mensaje = "correcto" }) : NotFound(new { mensaje = "incorrecto" });
+            return person != null ? Ok() : NotFound(  );
         }
     }
 }
