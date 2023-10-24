@@ -35,6 +35,7 @@ namespace BrokerBackend.Models
                 Quantity = Quantity,
                 Total = Total,
                 IdPerson = IdPerson,
+                Symbol = Symbol
             };
         }
     }

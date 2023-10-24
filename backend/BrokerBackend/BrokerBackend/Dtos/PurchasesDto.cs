@@ -11,6 +11,6 @@ namespace BrokerBackend.Dtos
         public int Quantity { get; set; }
         public decimal Total { get; set; }
         public int? IdPerson { get; set; }
-        public int? IdStock { get; set; }
+        public string? Symbol { get; set; }
     }
 }
