@@ -48,11 +48,11 @@ namespace BrokerBackend.Controllers
             return Ok();
         }
 
-        [HttpGet("{usuario}, {contrasenia}")]
+        [HttpGet ("login/{usuario},{contrasenia}")]
         public async Task<IActionResult?> Login(string usuario, string contrasenia)
         {
             PersonDto? person = await personService.Login(usuario, contrasenia);
-            return person != null ? Ok("Bienvenido " + usuario) : NotFound("Usuario o Contraseña Inválida");
+            return person != null ? Ok(new { mensaje = "correcto" }) : NotFound(new { mensaje = "incorrecto" });
         }
     }
 }
