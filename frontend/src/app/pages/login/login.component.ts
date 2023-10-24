@@ -10,14 +10,15 @@ import { Login } from 'src/app/interfaces/login';
 })
 export class LoginComponent {
   formularioLogin:FormGroup;
-  
+
   ocultarPassword:boolean=true;
   error?:string ="";
-  constructor(private fb:FormBuilder,
-   private  _authService:AuthService,
-   private router:Router
+  constructor(
+    private fb:FormBuilder,
+    private  _authService:AuthService,
+    private router:Router
     ) {
-    
+
     this.formularioLogin = this.fb.group({
       usuario:['',[Validators.required, Validators.email]],
       contrasenia:['',[Validators.required]]
@@ -36,9 +37,9 @@ export class LoginComponent {
     console.log(formData);
     this._authService.login(formData).subscribe(
       (response) => {
-        
+
         localStorage.setItem('datos', JSON.stringify(response));
-       
+
         this.router.navigate(['/']);
       },
       (error) => {
@@ -49,5 +50,5 @@ export class LoginComponent {
   }
 
 
-  
+
 }

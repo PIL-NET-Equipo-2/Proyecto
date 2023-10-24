@@ -3,14 +3,16 @@
     width: 250px;
     background-color: #112D4E;
     z-index: 1;
-    
+    transition: width 1s;
+
+
 }
 
 .sidebar2{
     height: 100vh;
-    width: 250px; 
+    width: 250px;
     transition: width 1s;
-     
+
 }
 
 a{
@@ -36,12 +38,30 @@ button{
 
 }
 
+.opciones{
+  transition: 1s;
+
+
+}
+
+.mostrar{
+  transform: translate(-250px);
+
+
+}
+
 @media only screen and (max-width: 600px) {
     .sidebar2{
-      
-        width: 60px; 
-
-         
+        width: 60px;
     }
+
+    .sidebar{
+      width: 60px;
+
+    }
+
+    .btn-hamburguesa{display: none;}
+
+
 
 }
