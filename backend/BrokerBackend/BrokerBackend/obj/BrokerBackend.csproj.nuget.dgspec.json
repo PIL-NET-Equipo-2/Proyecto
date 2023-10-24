@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {}
+    "C:\\Users\\Diego\\Documents\\Archivos\\02 FACULTAD\\rep\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {
+    "C:\\Users\\Diego\\Documents\\Archivos\\02 FACULTAD\\rep\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\Documents\\Archivos\\02 FACULTAD\\rep\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
         "projectName": "BrokerBackend",
-        "projectPath": "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
-        "packagesPath": "C:\\Users\\sacle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sacle\\Documents\\www\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\obj\\",
+        "projectPath": "C:\\Users\\Diego\\Documents\\Archivos\\02 FACULTAD\\rep\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\BrokerBackend.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego\\Documents\\Archivos\\02 FACULTAD\\rep\\Proyecto\\backend\\BrokerBackend\\BrokerBackend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sacle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
