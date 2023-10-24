@@ -36,6 +36,9 @@ export class LoginComponent {
     console.log(formData);
     this._authService.login(formData).subscribe(
       (response) => {
+        
+        localStorage.setItem('datos', JSON.stringify(response));
+       
         this.router.navigate(['/']);
       },
       (error) => {

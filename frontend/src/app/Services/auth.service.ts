@@ -20,8 +20,9 @@ export class AuthService {
     return this.http.get(loginUrl).pipe(
       map((response: any) => {
         console.log(response);
-         if (response === 200) {         
-          sessionStorage.setItem('isUserLoginOn', 'true'); 
+         if (response != null) {         
+           sessionStorage.setItem('isUserLoginOn', 'true');          
+          
           return response; 
         } else {  
           console.log(response);

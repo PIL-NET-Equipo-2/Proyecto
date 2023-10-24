@@ -55,11 +55,11 @@ namespace BrokerBackend.Controllers
 
             if (person != null)
             {
-                return Ok(200); 
+                return Ok(person); 
             }
             else
             {             
-                return NotFound(404); 
+                return NotFound(null); 
             }
         }
     }
