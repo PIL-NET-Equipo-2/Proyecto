@@ -88,8 +88,9 @@ namespace BrokerBackend.Repositories
 
         public async Task<PersonModel?> Login(string usuario, string contrasenia)
         {
-            PersonModel? person = await Person.FirstOrDefaultAsync(p => p.Mail == usuario);
-            person = await Person.FirstOrDefaultAsync(p => p.Password == contrasenia);
+            //PersonModel? person = await Person.FirstOrDefaultAsync(p => p.Mail == usuario);
+            // person = await Person.FirstOrDefaultAsync(p => p.Password == contrasenia);
+            PersonModel person = await Person.FirstOrDefaultAsync(p => p.Mail == usuario && p.Password == contrasenia);
             return person;
         }
 

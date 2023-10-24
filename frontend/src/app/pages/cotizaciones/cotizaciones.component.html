@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div *ngIf="(listaCotizacionesMostrar.length > 0)" class="centrar d-flex mx-auto w-100">
-                    <table class="table">
+                    <table class="table" *ngIf="!cargando">
                         <thead>
                             <tr class="table-dark table-striped text-center align-middle">
                                 <th class="" scope="col" colspan="4">Simbolo</th>
@@ -41,8 +41,8 @@
                                 <th class="d-none d-lg-table-cell" scope="col"></th>
                             </tr>
                         </thead>
-                        <tbody  *ngIf="!cargando">
-                            <tr class="align-middle text-center" *ngFor="let item of obtenerElementosPagina()">
+                        <tbody   *ngFor="let item of obtenerElementosPagina()">
+                            <tr class="align-middle text-center" *ngIf="item.puntas != null" >
                                 <td colspan="4" class="align-middle text-start">
                                     {{item.simbolo}}
                                     <br>

@@ -3,6 +3,7 @@ import { registerLocaleData } from '@angular/common';
 
 import localeEsAr from '@angular/common/locales/es-AR';
 import { CotizacionesService } from 'src/app/Services/cotizaciones.service';
+import { Compra } from 'src/app/interfaces/compra';
 
 registerLocaleData(localeEsAr, 'es-Ar');
 
@@ -21,14 +22,25 @@ export class ComprarFormComponent {
     }
 
   }
+  idPerson!: number;
+  constructor(private _cotizacionesServicio: CotizacionesService){
+    const userData = JSON.parse(localStorage.getItem('datos')!);
 
-  constructor(private _cotizacionesServicio: CotizacionesService){}
+    if (userData && userData.idPerson) {
+     
+      this.idPerson = parseInt(userData.idPerson, 10);
+    } else {
+      
+      console.error('El campo idPerson no está definido o no es un número válido');
+    }
+    console.log(this.compra);
+  }
 
 
   @Input()
   public nombreAccion: string = ""
 
-
+  
   private cargarCotizacion() {
     this._cotizacionesServicio.obtenerCotizaciones().subscribe({
       next:(data)=>{
@@ -70,18 +82,34 @@ export class ComprarFormComponent {
     this.calcularTotal();
     
   }
-
+  compra: Compra = {
+    idPurchase: null,
+    purchaseDate: null,
+    quantity: this.cantidad,
+    total: this.calcularTotal(),
+    idPerson: this.idPerson,
+    symbol: this.nombreAccion,
+  };
   public onComprar():void{
-    this.cantidad = 1;
-    this.total = this.accion.puntas.precioVenta;
-    this.switchModal()
+   
+    const userData = JSON.parse(localStorage.getItem('datos')!);
+
+    if (userData && userData.idPerson) {
+     
+      this.idPerson = parseInt(userData.idPerson, 10);
+    } else {
+      
+      console.error('El campo idPerson no está definido o no es un número válido');
+    }
+    console.log(this.compra);
+
+    
 
   }
 
   private calcularTotal() {
-    this.total = this.cantidad * this.accion.puntas.precioVenta
+    return this.total = (this.cantidad * this.accion.puntas.precioVenta) *1.015;
   }
 
-  
 
 }

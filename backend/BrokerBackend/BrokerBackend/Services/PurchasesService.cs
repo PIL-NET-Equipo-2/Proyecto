@@ -30,6 +30,7 @@ namespace BrokerBackend.Services
                 Quantity = purchasesDto.Quantity,
                 Total = purchasesDto.Total,
                 IdPerson = purchasesDto.IdPerson,
+                Symbol = purchasesDto.Symbol,
             };
 
             PurchasesModel? result = await brokerContext.CreatePurchases(purchases);
