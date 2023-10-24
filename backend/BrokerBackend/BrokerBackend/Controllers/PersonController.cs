@@ -51,8 +51,16 @@ namespace BrokerBackend.Controllers
         [HttpGet ("login/{usuario},{contrasenia}")]
         public async Task<IActionResult?> Login(string usuario, string contrasenia)
         {
-            PersonDto? person = await personService.Login(usuario, contrasenia);
-            return person != null ? Ok() : NotFound(  );
+            PersonDto person = await personService.Login(usuario, contrasenia);
+
+            if (person != null)
+            {
+                return Ok(200); 
+            }
+            else
+            {             
+                return NotFound(404); 
+            }
         }
     }
 }
