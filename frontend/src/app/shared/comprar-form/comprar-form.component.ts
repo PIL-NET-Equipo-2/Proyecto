@@ -4,6 +4,7 @@ import { registerLocaleData } from '@angular/common';
 import localeEsAr from '@angular/common/locales/es-AR';
 import { CotizacionesService } from 'src/app/Services/cotizaciones.service';
 import { Compra } from 'src/app/interfaces/compra';
+import { AccionesService } from 'src/app/Services/acciones.service';
 
 registerLocaleData(localeEsAr, 'es-Ar');
 
@@ -23,7 +24,8 @@ export class ComprarFormComponent {
 
   }
   idPerson!: number;
-  constructor(private _cotizacionesServicio: CotizacionesService){
+  constructor(private _cotizacionesServicio: CotizacionesService,
+    private _accionesService: AccionesService){
     const userData = JSON.parse(localStorage.getItem('datos')!);
 
     if (userData && userData.idPerson) {
@@ -85,13 +87,20 @@ export class ComprarFormComponent {
   compra: Compra = {
     idPurchase: null,
     purchaseDate: null,
-    quantity: this.cantidad,
-    total: this.calcularTotal(),
-    idPerson: this.idPerson,
-    symbol: this.nombreAccion,
+    quantity: 0,
+    total: 0,
+    idPerson: 0,
+    symbol: ''
   };
   public onComprar():void{
-   
+    this.compra = {
+      idPurchase: null,
+      purchaseDate: null,
+      quantity: this.cantidad,
+      total: this.total,
+      idPerson: this.idPerson,
+      symbol: this.nombreAccion,
+    }
     const userData = JSON.parse(localStorage.getItem('datos')!);
 
     if (userData && userData.idPerson) {
@@ -103,7 +112,8 @@ export class ComprarFormComponent {
     }
     console.log(this.compra);
 
-    
+    this._accionesService.registrarCompra(this.compra).subscribe(   
+    );
 
   }
 

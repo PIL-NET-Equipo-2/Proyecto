@@ -78,6 +78,7 @@
                             <th scope="col">Cotizacion de compra</th>
                             <th scope="col">Cantidad</th>
                             <th scope="col">Cotizacion Actual</th>
+                            <th scope="col">Total</th>
                         </tr>
                     </thead>
                     <tbody *ngFor="let compra of compras">
@@ -87,6 +88,7 @@
                             <td>${{compra.total / compra.quantity}}</td>
                             <td>{{compra.quantity}}</td>
                             <td>${{obtenerPrecioCompraPorSimbolo(compra.symbol)}}</td>
+                            <td>${{compra.total}}</td>
                         </tr>
                        
                     </tbody>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CotizacionesService } from 'src/app/Services/cotizaciones.service';
+import { Titulo } from 'src/app/interfaces/acciones';
 
 
 @Component({
@@ -8,8 +9,8 @@ import { CotizacionesService } from 'src/app/Services/cotizaciones.service';
   styleUrls: ['./cotizaciones.component.css']
 })
 export class CotizacionesComponent implements OnInit  {
-  listaCotizaciones:any[]=[];
-  listaCotizacionesMostrar:any[]=[];
+  listaCotizaciones:Titulo[]=[];
+  listaCotizacionesMostrar:Titulo[]=[];
   paginaActual:number= 1;
   ultimaPagina!:number;
   elementosPorPagina:number = 10;

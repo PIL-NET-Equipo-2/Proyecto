@@ -17,7 +17,7 @@ export class AccionesService {
     return this.http.get<Compra[]>(`${this.urlApi}${idString}`);
   }
 
-  enviarCompraAPIServidor(compra: Compra): Observable<any> {
+  registrarCompra(compra: Compra): Observable<any> {
     return this.http.post(this.urlApi, compra);
   }
 }

@@ -55,15 +55,5 @@ export class PortfolioComponent {
 
 
  }
- clacularValorPortfolio(){
-  // traer acciuones de la cuenta
-  
-
-
-  return
- }
-  buscarAccionPorSimbolo(data:any , simboloBuscado:string) {
-  const accionEncontrada = data.titulos.find((accion: { simbolo: any; }) => accion.simbolo === simboloBuscado);
-  return accionEncontrada;
-}
+ 
 }
