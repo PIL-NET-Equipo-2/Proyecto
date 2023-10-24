@@ -4,44 +4,44 @@
             <div class="col-12 col-md-8 col-lg-8 col-xl-8">
                 <div class="card shadow-2-strong" style="border-radius: 1rem;">
                     <form class=" row card-body p-5 text-center" [formGroup]="formularioRegistro" (ngSubmit)="registrar()">
-                        
+
                         <h3 class="mb-5 ">Cree una cuenta</h3>
-                        
+
                         <div class="col-sm-6">
                             <div class="form-outline mb-4 text-start">
                                 <label class="form-label" for="nombre">Nombre</label>
-                                <input formControlName="nombre" type="text" id="nombre" class="form-control form-control-lg" placeholder="Juan"/>
-                                <div *ngIf="nombre.invalid && (nombre.dirty || nombre.touched)" class="text-danger">
-                                    <div *ngIf="nombre.errors?.['required']">
+                                <input formControlName="name" type="text" id="nombre" class="form-control form-control-lg" placeholder="Juan"/>
+                                <div *ngIf="name.invalid && (name.dirty || name.touched)" class="text-danger">
+                                    <div *ngIf="name.errors?.['required']">
                                         El nombre es obligatorio...
-                                    </div>                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-outline mb-4 text-start">
-                                <label class="form-label" for="apellido">Apellido</label>
-                                <input formControlName="apellido" type="text" id="apellido" class="form-control form-control-lg" placeholder="Perez"/>
-                                <div *ngIf="apellido.invalid && (apellido.dirty || apellido.touched)" class="text-danger">
-                                    <div *ngIf="apellido.errors?.['required']">
+                                <label class="form-label" for="lastname">Apellido</label>
+                                <input formControlName="lastname" type="text" id="lastname" class="form-control form-control-lg" placeholder="Perez"/>
+                                <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="text-danger">
+                                    <div *ngIf="lastname.errors?.['required']">
                                         El apellido es obligatorio...
-                                    </div>                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-outline mb-4 text-start">
-                                <label class="form-label" for="sexo">Sexo</label>
-                                <select formControlName="sexo" class="form-select" id="sexo">
-                                    
-                                    <option value="Masculino">Masculino</option>
+                                <label class="form-label" for="gender">Sexo</label>
+                                <select formControlName="gender" class="form-select" id="gender">
+
+                                    <option value="Male">Masculino</option>
                                     <option value="Femenino">Femenino</option>
                                     <option value="Otro">Otro</option>
                                 </select>
-                                <div *ngIf="sexo.invalid && (sexo.dirty || sexo.touched)" class="text-danger">
-                                    <div *ngIf="sexo.errors?.['required']">
+                                <div *ngIf="gender.invalid && (gender.dirty || gender.touched)" class="text-danger">
+                                    <div *ngIf="gender.errors?.['required']">
                                         Debe seleccionar un sexo...
-                                    </div>                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -52,47 +52,47 @@
                                 <div *ngIf="dni.invalid && (dni.dirty || dni.touched)" class="text-danger">
                                     <div *ngIf="dni.errors?.['required']">
                                         El dni es obligatorio...
-                                    </div>                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-outline mb-4 text-start">
-                                <label class="form-label" for="provincia">Provincia</label>
-                                <input formControlName="provincia" type="text" id="provincia" class="form-control form-control-lg" placeholder="Cordoba"/>
+                                <label class="form-label" for="state">Provincia</label>
+                                <input formControlName="state" type="text" id="state" class="form-control form-control-lg" placeholder="Cordoba"/>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-outline mb-4 text-start">
-                                <label class="form-label" for="ciudad">Ciudad</label>
-                                <input formControlName="ciudad" type="text" id="ciudad" class="form-control form-control-lg" placeholder="Cordoba Capital"/>
+                                <label class="form-label" for="city">Ciudad</label>
+                                <input formControlName="city" type="text" id="city" class="form-control form-control-lg" placeholder="Cordoba Capital"/>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-outline mb-4 text-start">
-                                <label class="form-label" for="domicilio">Direccion</label>
-                                <input formControlName="domicilio" type="text" id="domicilio" class="form-control form-control-lg" placeholder="Bv. Illia 280"/>
+                                <label class="form-label" for="address">Direccion</label>
+                                <input formControlName="address" type="text" id="domicilio" class="form-control form-control-lg" placeholder="Bv. Illia 280"/>
                             </div>
                         </div>
-                        <div class="col-12">                            
+                        <div class="col-12">
                             <div class="form-outline mb-4 text-start">
                                 <label class="form-label" for="Email">Correo electronico</label>
-                                <input formControlName="email" type="email" id="Email" class="form-control form-control-lg"  placeholder="JuanPerez@mail.com"/>
-                                <div *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+                                <input formControlName="mail" type="mail" id="mail" class="form-control form-control-lg"  placeholder="JuanPerez@mail.com"/>
+                                <div *ngIf="mail.invalid && (mail.dirty || mail.touched)" class="text-danger">
 
-                                    <div *ngIf="email.errors?.['required']">
+                                    <div *ngIf="mail.errors?.['required']">
                                         El correo es obligatorio...
                                     </div>
-                                    <div *ngIf="email.errors?.['email']">
+                                    <div *ngIf="mail.errors?.['email']">
                                         Ingrese un fromato de correo correcto...
                                     </div>
                                 </div>
                             </div>
-                        </div>   
+                        </div>
                         <div class="col-12">
                             <div class="form-outline mb-4 text-start">
                                 <label class="form-label" for="contraseña">Contraseña</label>
-                                <input formControlName="password" [type]="ocultarPass? 'password': 'text'" id="contraseña" class="form-control form-control-lg" placeholder="********"/>                               
+                                <input formControlName="password" [type]="ocultarPass? 'password': 'text'" id="contraseña" class="form-control form-control-lg" placeholder="********"/>
                                 <div *ngIf="pass.invalid && (pass.dirty || pass.touched)" class="text-danger">
                                     <div *ngIf="pass.errors?.['required']">
                                         La contraseña es obligatoria...
@@ -105,11 +105,14 @@
                                     {{ocultarPass? 'Ver contraseña...' : 'Ocultar contraseña...'}}
                                 </button>
                             </div>
-                        </div>               
+                        </div>
                         <div class="d-grid gap-2">
                             <button [disabled]="formularioRegistro.invalid"  class="btn btn-primary" type="submit">Crear una cuenta</button>
-                        </div>                      
+                        </div>
                     </form>
+                    <div class="alert alert-danger" role="alert" *ngIf="errorMessage?.length != 0 ">
+                      {{errorMessage}}
+                  </div>
                 </div>
             </div>
         </div>

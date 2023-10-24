@@ -1,0 +1,35 @@
+
+.enlace-redes img{
+  height: 40px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.div-enlace-redes{
+  display: flex;
+  align-items: center;
+}
+
+.contenedor-redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.enlaces-items-footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.enlaces-items-footer a{
+  text-decoration: none;
+  color: #164b60;
+}
+
+.enlaces-items-footer a:hover{
+  color: #072531;
+}
+
+.p-copyright{
+  color: #164b60;
+}
