@@ -54,6 +54,8 @@ namespace BrokerBackend.Controllers
         /// </remarks>
         /// <returns>El rol sumado a la BD</returns>
         [HttpPost]
+        [ProducesResponseType(typeof(RolDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult?> Create(NewRolDto rol)
         {
             return Ok(await rolService.Create(rol));

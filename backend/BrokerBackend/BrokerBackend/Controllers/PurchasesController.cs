@@ -101,6 +101,8 @@ namespace BrokerBackend.Controllers
         /// </remarks>
         /// <returns>El registro eliminado</returns>
         [HttpDelete("{id}")]
+        [ProducesResponseType(typeof(PurchasesDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult?> Delete(int id)
         {
             this.purchasesService.Delete(id);
