@@ -39,7 +39,7 @@ namespace BrokerBackend.Models
         public string Address { get; set; } = null!;
 
         [Column(TypeName = "decimal(11,2)")]
-        public decimal AccountMoney { get; set; }
+        public decimal AccountMoney { get; set; } = 1000000;
 
         public List<PurchasesModel>? Purchases { get; set; }
         public int IdRol { get; set; }
