@@ -50,6 +50,8 @@ export class PortfolioComponent {
   if (this.userData && this.userData.idPerson) {
 
     this.idPerson = parseInt(this.userData.idPerson, 10);
+    console.log(this.idPerson);
+
   } else {
 
     console.error('El campo idPerson no está definido o no es un número válido');
@@ -58,6 +60,8 @@ export class PortfolioComponent {
   this._userServicio.getSaldo(this.idPerson).subscribe({
 
     next: (user) => {
+      console.log(user.accountMoney);
+
       this.valores.saldo = user.accountMoney;
     },
     error: (error) => {
