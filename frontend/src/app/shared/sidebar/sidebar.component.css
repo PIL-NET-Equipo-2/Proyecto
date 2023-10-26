@@ -50,6 +50,10 @@ button{
 
 }
 
+.logout{
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 600px) {
     .sidebar2{
         width: 60px;
@@ -61,6 +65,12 @@ button{
     }
 
     .btn-hamburguesa{display: none;}
+
+    .opciones{
+      display: none;
+
+
+    }
 
 
 
