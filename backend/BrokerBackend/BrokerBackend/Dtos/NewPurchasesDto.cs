@@ -10,7 +10,7 @@
 
         public int? IdPerson { get; set; }
 
-        public int? IdStock { get; set; }
+        public string? Symbol { get; set; }
 
     }
 }

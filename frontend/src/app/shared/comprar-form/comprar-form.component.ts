@@ -5,7 +5,10 @@ import localeEsAr from '@angular/common/locales/es-AR';
 import { CotizacionesService } from 'src/app/Services/cotizaciones.service';
 import { Compra } from 'src/app/interfaces/compra';
 import { AccionesService } from 'src/app/Services/acciones.service';
+<<<<<<< HEAD
 import { UserService } from 'src/app/Services/user.service';
+=======
+>>>>>>> 46dc797979f2e483a16e3eca3122ce37b4bb3f4e
 
 registerLocaleData(localeEsAr, 'es-Ar');
 
@@ -25,6 +28,7 @@ export class ComprarFormComponent {
 
   }
   idPerson!: number;
+
   saldo:number = 0;
   constructor(private _cotizacionesServicio: CotizacionesService,
     private _accionesService: AccionesService,
@@ -40,6 +44,7 @@ export class ComprarFormComponent {
       console.error('El campo idPerson no está definido o no es un número válido');
     }
     // console.log(this.compra);
+
   }
 
 
@@ -126,16 +131,20 @@ export class ComprarFormComponent {
 
     if (userData && userData.idPerson) {
 
+
       this.idPerson = parseInt(userData.idPerson, 10);
     } else {
+
 
       console.error('El campo idPerson no está definido o no es un número válido');
     }
     console.log(this.compra);
 
+
     this._accionesService.registrarCompra(this.compra).subscribe(
     );
     this.switchModal()
+
 
 
 

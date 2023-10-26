@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { AccionesService } from 'src/app/Services/acciones.service';
 import { CotizacionesService } from 'src/app/Services/cotizaciones.service';
 import { UserService } from 'src/app/Services/user.service';
+
 import { Compra } from 'src/app/interfaces/compra';
 
 @Component({
@@ -12,6 +13,7 @@ import { Compra } from 'src/app/interfaces/compra';
 export class PortfolioComponent {
   userData: any;
   compras: Compra[] = [];
+
   valores = {
     saldo: 0,
     invertido: 0,
@@ -26,6 +28,7 @@ export class PortfolioComponent {
   constructor(private _accionesService: AccionesService,
     private _cotizacionesServicio: CotizacionesService,
     private _userServicio: UserService
+
     ) {}
 
 
@@ -35,6 +38,7 @@ export class PortfolioComponent {
 
   idPerson:number = 0 ;
   listaCotizaciones:any[]=[];
+
 
 
   ngOnInit() {
@@ -76,11 +80,13 @@ export class PortfolioComponent {
 
 
     })
+
   });
 
   //cargar cotizaciones
   this._cotizacionesServicio.obtenerCotizaciones().subscribe({
     next:(data)=>{
+
       this.listaCotizaciones = data;
       this.compras.forEach(compra => {
         const cantidad: number = compra.quantity;
@@ -91,6 +97,7 @@ export class PortfolioComponent {
       this.valores.ganancia = this.valores.valorActual - this.valores.invertido;
       this.valores.portfolio = this.valores.saldo + this.valores.invertido + this.valores.ganancia
 
+
     }
   })
 
@@ -99,11 +106,8 @@ export class PortfolioComponent {
 
 
 
-
-
-
-
  }
+
  obtenerPrecioCompraPorSimbolo(simboloBuscado: string): number | null {
 
     const accion = this.listaCotizaciones.find(titulo => titulo.simbolo === simboloBuscado);
@@ -112,4 +116,5 @@ export class PortfolioComponent {
     }
     return null; // Devuelve null si no se encuentra la acción o si no tiene precio de compra
   }
+
 }
