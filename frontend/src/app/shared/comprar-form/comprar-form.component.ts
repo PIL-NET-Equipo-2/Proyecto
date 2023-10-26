@@ -117,6 +117,8 @@ export class ComprarFormComponent {
     symbol: ''
   };
   public onComprar():void{
+    
+    
     this.compra = {
       idPurchase: null,
       purchaseDate: null,
@@ -141,7 +143,8 @@ export class ComprarFormComponent {
 
     this._accionesService.registrarCompra(this.compra).subscribe(
     );
-    this.switchModal()
+    this.compraExitosa();
+    this.switchModal();
 
 
 
@@ -153,5 +156,9 @@ export class ComprarFormComponent {
     return this.total = (this.cantidad * this.accion.puntas.precioVenta) *1.015;
   }
 
-
+  compraExitosa() {
+    setTimeout(() => {
+      alert('Compra realizada con éxito');
+    }, 100); // 5000 milisegundos = 5 segundos
+  }
 }
