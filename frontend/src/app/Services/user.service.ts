@@ -9,13 +9,14 @@ import { Registro } from '../interfaces/registro';
 })
 export class UserService {
   private user = JSON.parse(localStorage.getItem('datos')!);
-  private urlApi:string = environment.endpoint + "person/" + this.user.idPerson;
+  private urlApi:string = environment.endpoint + "person/";
 
 
   constructor(private http: HttpClient) { }
 
   getSaldo(id: number):Observable<Registro>  {
-    const authUser = this.http.get<Registro>(this.urlApi )
+
+    const authUser = this.http.get<Registro>(this.urlApi + id )
 
     return authUser;
   }
