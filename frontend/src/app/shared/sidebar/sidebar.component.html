@@ -1,57 +1,57 @@
 
-<aside class=" " >
+<aside class="relative " >
 
-    
 
-    <div class="sidebar p-3 d-flex flex-column  justify-content-between fixed-top  ">
+
+    <div class="sidebar p-3 d-flex flex-column  justify-content-between fixed-top  " [ngClass]="{escondida: isNarrow}">
     <div class="sidebar-items">
         <div class="menu-button">
-            <button class="btn" (click)="switchWidth()">
+            <button class="btn btn-hamburguesa" (click)="switchWidth()">
                 <i class="las la-bars"></i>
             </button>
         </div>
-        <div class="item" style="font-size: 35px"> 
-            <a [routerLink]="['/']" routerLinkActive="router-link-active" >
+        <div class="item" style="font-size: 35px">
+            <a [routerLink]="['/']" routerLinkActive="router-link-active"  class="d-flex align-items-center" >
                 <i class="las la-home"></i>
-                <span  class="ms-3 ">Inicio</span>
+                <div  class="ms-3 opciones" [ngClass]="{mostrar: isNarrow}">Inicio</div>
             </a>
         </div>
         <div class="item">
-            <a [routerLink]="['/portfolio']" routerLinkActive="router-link-active" >
+            <a [routerLink]="['/portfolio']" routerLinkActive="router-link-active" class="d-flex align-items-center" >
                 <i class="las la-suitcase"></i>
-                <span  class="ms-3 ">Portfolio</span>
+                <div  class="ms-3 opciones" [ngClass]="{mostrar: isNarrow}">Portfolio</div>
             </a>
         </div>
         <div class="item">
-            <a [routerLink]="['/cotizaciones']" routerLinkActive="router-link-active" >
-                <i class="lar la-chart-bar"></i>          
-                <span class="ms-3 ">Cotizaciones</span>
+            <a [routerLink]="['/cotizaciones']" routerLinkActive="router-link-active"  class="d-flex align-items-center" >
+                <i class="lar la-chart-bar"></i>
+                <div class="ms-3 opciones" [ngClass]="{mostrar: isNarrow}">Cotizaciones</div>
             </a>
         </div>
-        
+
     </div>
     <div class="sidebar-items-bottom">
         <div class="item">
-            
+
             <!-- <button class="btn btn-light text-light w-  ">virtual</button> -->
         </div>
         <div class="item">
-            <a [routerLink]="['/nosotros']" routerLinkActive="router-link-active" >
-                <i class="las la-user-tie"></i>            
-                <span class="ms-3 ">Nosotros</span>
+            <a [routerLink]="['/nosotros']" routerLinkActive="router-link-active"  class="d-flex align-items-center" >
+                <i class="las la-user-tie"></i>
+                <div class="ms-3 opciones" [ngClass]="{mostrar: isNarrow}">Nosotros</div>
             </a>
         </div>
-        <div class="item">
-            <a  class="text-light" (click)="cerrarSesion()">
-                <i class="las la-sign-out-alt"></i>            
-                <span class="ms-3 ">Salir</span>
+        <div class="item logout">
+            <a  class="text-light" (click)="cerrarSesion()"  class="d-flex align-items-center" >
+                <i class="las la-sign-out-alt"></i>
+                <div class="ms-3 opciones pointer" [ngClass]="{mostrar: isNarrow}">Salir</div>
             </a>
         </div>
     </div>
 
 </div>
 <div class="space sidebar2 " [ngClass]="{escondida: isNarrow}" >
-    
+
 
 </div>
 

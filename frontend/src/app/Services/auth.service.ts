@@ -1,29 +1,41 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { Observable, catchError, tap, throwError } from 'rxjs';
+import { Observable, catchError, map, tap, throwError } from 'rxjs';
 import { BehaviorSubject } from 'rxjs';
+import { environment } from 'src/environments/environment';
+import { Login } from '../interfaces/login';
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-  urlApi: string = "https://reqres.in/api/login"
+  private urlApi:string = environment.endpoint + "person/login/";
   currentUserLoginOn: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
   constructor(private http: HttpClient) { }
 
-  login(request: any): Observable<any> {
+  login(request:Login) {
+    const usuarioEncoded = encodeURIComponent(request.usuario);
+    const contraseniaEncoded = encodeURIComponent(request.contrasenia);
 
-    return this.http.post(this.urlApi, request)
-      .pipe(
-        tap((token) => {
-          if (JSON.stringify(token).length != 0) {
-            this.currentUserLoginOn.next(true);
-            sessionStorage.setItem('isUserLoginOn', 'true')
-          }
-            console.log(token);
-          }),
-        catchError(this.handleError)
-      );
-  }
+    const loginUrl = `${this.urlApi}${usuarioEncoded},${contraseniaEncoded}`;
+    return this.http.get(loginUrl).pipe(
+      map((response: any) => {
+        console.log(response);
+         if (response != null) {         
+           sessionStorage.setItem('isUserLoginOn', 'true');          
+          
+          return response; 
+        } else {  
+          console.log(response);
+          throw new Error('Error en las credenciales');
+        } 
+      }),
+      catchError((error) => {  
+        console.log(error);
+        return this.handleError(error);
+      })
+    );}
+
+
 
   get isUserLoginOn():Observable<boolean>{
     return this.currentUserLoginOn.asObservable();
@@ -38,7 +50,7 @@ export class AuthService {
         `Backend returned code ${error.status}, body was: `, error.error);
     }
     return throwError(() => new Error('Algo paso, reintentelo nuevamente...'));
-  }
+  } 
 
 
 }

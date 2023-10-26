@@ -12,13 +12,13 @@ export class AuthGuard implements CanActivate {
     private router: Router
   ) {
 
-    
+
   }
 
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean> { //
-    
-    
+
+
     return this._authService.isUserLoginOn.pipe(
       take(1),
       map((isUserLoginon) => {
@@ -28,8 +28,8 @@ export class AuthGuard implements CanActivate {
         } else{
           isUserLoginon = true
         }
-        
-        console.log(isUserLoginon);
+
+        // console.log(isUserLoginon);
         return isUserLoginon;
       }));
   }

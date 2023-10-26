@@ -20,7 +20,8 @@
                                     <h6 class="m-0 font-weight-bold text-primary">Informacion de Saldo</h6>
                                 </div>
                                 <div class="card-body">
-                                    <h1>$ 100.000</h1>
+                                    <h1>$ {{valores.portfolio |  number:'1.2-2'}}</h1>
+
                                     <h5>Valor del portafolio</h5>
                                     <br>
                                     <table class="table table-striped shadow mb-4">
@@ -33,9 +34,12 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>$ 100.000</td>
-                                                <td>$ 1.500</td>
-                                                <td>$ 3.000</td>
+                                                <td>$ {{valores.saldo |  number:'1.2-2'}}</td>
+                                                <td>${{valores.invertido |  number:'1.2-2'}}</td>
+                                                <td class=" fw-bold" [ngClass]="{'text-danger': valores.ganancia < 0,
+                                                                                 'text-success':valores.ganancia > 0}">
+                                                                                 ${{valores.ganancia |  number:'1.2-2'}}
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -46,10 +50,10 @@
                 </div>
             </div>
         </div>
-        
-        
+
+
     </div>
-  
+
 
 </main>
 

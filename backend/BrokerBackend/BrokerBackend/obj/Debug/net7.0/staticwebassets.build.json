@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1WvxF0V7BQohhS4dhTxO4ZHubyjeIJ4x3Zfnvtxvh20=",
+  "Source": "BrokerBackend",
+  "BasePath": "_content/BrokerBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

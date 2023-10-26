@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "E5Lm4tKpaPuodIjVQHRG9OeJO8rWK4yCGP57oRa99bM=",
+  "Source": "BrokerApi",
+  "BasePath": "_content/BrokerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
