@@ -8,4 +8,5 @@ export interface Registro {
   state:        string;
   city:         string;
   address:      string;
+  accountMoney: number;
 }
