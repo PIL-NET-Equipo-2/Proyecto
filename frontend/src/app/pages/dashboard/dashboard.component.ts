@@ -16,16 +16,16 @@ export class DashboardComponent {
     private _cotizacionesServicio: CotizacionesService) {}
 
   idPerson:number = 0 ;
-  
+
   ngOnInit() {
-   
+
     const userData = JSON.parse(localStorage.getItem('datos')!);
 
     if (userData && userData.idPerson) {
-     
+
       this.idPerson = parseInt(userData.idPerson, 10);
     } else {
-      
+
       console.error('El campo idPerson no está definido o no es un número válido');
     }
 
@@ -33,13 +33,13 @@ export class DashboardComponent {
 
     this._accionesService.getAccionesPorCuenta(this.idPerson).subscribe((data) => {
       this.compras = data;
-      console.log(data);
+      // console.log(data);
     });
 
 
     this._cotizacionesServicio.obtenerCotizaciones().subscribe({
       next:(data)=>{
-        this.listaCotizaciones = data;     
+        this.listaCotizaciones = data;
       }
     })
   }

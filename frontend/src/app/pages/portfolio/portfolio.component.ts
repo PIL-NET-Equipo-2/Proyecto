@@ -70,7 +70,7 @@ export class PortfolioComponent {
 
   this._accionesService.getAccionesPorCuenta(this.idPerson).subscribe((data) => {
     this.compras = data;
-    console.log(data);
+    // console.log(data);
     this.compras.forEach(compra => {
 
       this.valores.invertido += compra.total;
