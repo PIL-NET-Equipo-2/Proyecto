@@ -87,7 +87,7 @@
                         <tr>
                             <th scope="row">{{compra.idPurchase}}</th>
                             <td>{{compra.symbol}}</td>
-                            <td>${{compra.total / compra.quantity}}</td>
+                            <td>${{(compra.total / compra.quantity) |  number:'1.2-2'}}</td>
                             <td>{{compra.quantity}}</td>
                             <td>${{obtenerPrecioCompraPorSimbolo(compra.symbol)}}</td>
                             <td>${{compra.total}}</td>

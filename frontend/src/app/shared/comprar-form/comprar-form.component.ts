@@ -117,6 +117,8 @@ export class ComprarFormComponent {
     symbol: ''
   };
   public onComprar():void{
+    
+    
     this.compra = {
       idPurchase: null,
       purchaseDate: null,
@@ -140,8 +142,21 @@ export class ComprarFormComponent {
 
 
     this._accionesService.registrarCompra(this.compra).subscribe(
+      (response) => {
+        
+          alert("La compra se guardó con éxito");
+      
+          
+         
+        
+      },
+      (error) => {
+        
+        alert("Hubo un error de comunicación con el servicio");
+      }
     );
-    this.switchModal()
+   
+    this.switchModal();
 
 
 
@@ -153,5 +168,5 @@ export class ComprarFormComponent {
     return this.total = (this.cantidad * this.accion.puntas.precioVenta) *1.015;
   }
 
-
+ 
 }
