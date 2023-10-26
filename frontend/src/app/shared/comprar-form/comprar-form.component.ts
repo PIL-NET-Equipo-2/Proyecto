@@ -142,8 +142,20 @@ export class ComprarFormComponent {
 
 
     this._accionesService.registrarCompra(this.compra).subscribe(
+      (response) => {
+        
+          alert("La compra se guardó con éxito");
+      
+          
+         
+        
+      },
+      (error) => {
+        
+        alert("Hubo un error de comunicación con el servicio");
+      }
     );
-    this.compraExitosa();
+   
     this.switchModal();
 
 
@@ -156,9 +168,5 @@ export class ComprarFormComponent {
     return this.total = (this.cantidad * this.accion.puntas.precioVenta) *1.015;
   }
 
-  compraExitosa() {
-    setTimeout(() => {
-      alert('Compra realizada con éxito');
-    }, 100); // 5000 milisegundos = 5 segundos
-  }
+ 
 }
